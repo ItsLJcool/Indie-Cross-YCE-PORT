@@ -1,0 +1,167 @@
+{
+	"songs": [
+		{
+			"scripts": [
+				"notes/InkNoteCheck",
+				"otherHelpfulStuff/camMove",
+				"stages/NMRunStage"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "nightmare-run"
+		},
+		{
+			"scripts": [
+				"stages/BATIMstageButLastReel",
+				"otherHelpfulStuff/camMove",
+				"notes/InkNoteCheck"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "last-reel"
+		},
+		{
+			"scripts": [
+				"stages/BATIMstageLol",
+				"otherHelpfulStuff/camMove"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "terrible-sin"
+		},
+		{
+			"scripts": [
+				"stages/BATIMstageLol",
+				"otherHelpfulStuff/camMove",
+				"notes/InkNoteCheck"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "imminent-demise"
+		},
+		{
+			"scripts": [
+				"stages/cupheadNightmareStage",
+				"otherHelpfulStuff/camMove",
+				"otherHelpfulStuff/healthbars/cupheadHealth"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "devils-gambit"
+		},
+		{
+			"scripts": [
+				"stages/cupheadStage",
+				"otherHelpfulStuff/camMove",
+				"otherHelpfulStuff/healthbars/cupheadHealth"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "technicolor-tussle"
+		},
+		{
+			"scripts": [
+				"stages/cupheadStage",
+				"otherHelpfulStuff/camMove",
+				"otherHelpfulStuff/healthbars/cupheadHealth"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "snake-eyes"
+		},
+		{
+			"scripts": [
+				"stages/cupheadRain",
+				"otherHelpfulStuff/camMove",
+				"otherHelpfulStuff/healthbars/cupheadHealth"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "knockout"
+		},
+		{
+			"scripts": [
+				"stages/sansStageIC",
+				"otherHelpfulStuff/camMove",
+				"otherHelpfulStuff/healthbars/sansHP"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "whoopee"
+		},
+		{
+			"scripts": [
+				"stages/sansStageIC",
+				"otherHelpfulStuff/camMove",
+				"otherHelpfulStuff/healthbars/sansHP"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "final-stretch"
+		},
+		{
+			"scripts": [
+				"otherHelpfulStuff/camMove",
+				"stages/badTimeStage",
+				"otherHelpfulStuff/healthbars/sansHP"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "bad-time"
+		},
+		{
+			"scripts": [
+				"stages/sansStageIC",
+				"otherHelpfulStuff/camMove",
+				"otherHelpfulStuff/healthbars/sansHP"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "sansational"
+		},
+		{
+			"scripts": [
+				"stages/snowdin",
+				"otherHelpfulStuff/camMove",
+				"otherHelpfulStuff/healthbars/sansHP"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "bonedoggle"
+		},
+		{
+			"scripts": [
+				"stages/sansBurningHell",
+				"otherHelpfulStuff/camMove",
+				"otherHelpfulStuff/healthbars/sansHP"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "Burning-In-Hell"
+		},
+		{
+			"scripts": [
+				"otherHelpfulStuff/camMove",
+				"stages/despairStage"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "despair"
+		}
+	]
+}

@@ -1,0 +1,93 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": -60,
+		"y": 650
+	},
+	"globalOffset": {
+		"x": 0,
+		"y": -710
+	},
+	"healthbarColor": "#000000",
+	"flipX": false,
+	"anims": [
+		{
+			"indices": null,
+			"x": 9,
+			"y": -661,
+			"anim": "DeathBendy instance 1",
+			"loop": true,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -95.517146776406,
+			"y": 999,
+			"anim": "Intro instance 1",
+			"loop": false,
+			"name": "intro",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -2.17283950617284,
+			"y": -893.037037037037,
+			"anim": "Down instance 1",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -43.4567901234568,
+			"y": -619.654320987654,
+			"anim": "FUCK YOU instance 1",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 102.320987654321,
+			"y": -654.814814814815,
+			"anim": "Left instance 1",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -42.4691358024691,
+			"y": -454.716049382716,
+			"anim": "Up instance 1",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 260.938271604938,
+			"y": -765.62962962963,
+			"anim": "bye bitch instance 1",
+			"loop": false,
+			"name": "leaveBitch",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 1.5
+}

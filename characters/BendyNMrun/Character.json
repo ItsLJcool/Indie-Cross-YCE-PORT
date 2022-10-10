@@ -1,0 +1,75 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": 750,
+		"y": 320
+	},
+	"globalOffset": {
+		"x": 0,
+		"y": 0
+	},
+	"healthbarColor": "#000000",
+	"flipX": false,
+	"anims": [
+		{
+			"indices": null,
+			"x": -310,
+			"y": -160,
+			"anim": "Bendy Run instance 1",
+			"loop": true,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -311.851851851852,
+			"y": -195.703703703704,
+			"anim": "Right instance 1",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -312.888888888889,
+			"y": -252.345679012346,
+			"anim": "Dowwn instance 1",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -182.773148148148,
+			"y": -30.9174382716049,
+			"anim": "Leftr instance 1",
+			"loop": true,
+			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -310.518518518519,
+			"y": 33.1851851851852,
+			"anim": "Upp instance 1",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 2
+}

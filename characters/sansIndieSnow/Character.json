@@ -1,0 +1,174 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": 30,
+		"y": 70
+	},
+	"globalOffset": {
+		"x": -50,
+		"y": 250
+	},
+	"healthbarColor": "#FFFFFF",
+	"flipX": false,
+	"anims": [
+		{
+			"indices": null,
+			"x": 68,
+			"y": -2.66666666666667,
+			"anim": "SansboneIdle instance 1",
+			"loop": false,
+			"name": "idle-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 4,
+			"y": -2.66666666666667,
+			"anim": "Donw instance 1",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 40,
+			"y": 88,
+			"anim": "Taste my Lightsaber instance 1",
+			"loop": false,
+			"name": "sansToBone",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 158.666666666667,
+			"y": 50.6666666666667,
+			"anim": "Left instance 1",
+			"loop": false,
+			"name": "singLEFT-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 38.6666666666667,
+			"y": 88,
+			"anim": "Sans puts back his shit instance 1",
+			"loop": false,
+			"name": "sansToIdle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 33.8148148148148,
+			"y": 1.11111111111111,
+			"anim": "01 instance 1",
+			"loop": false,
+			"name": "sansSleep",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "Sans FNF instance 1",
+			"loop": true,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 78.6666666666667,
+			"y": 93.3333333333333,
+			"anim": "Right instance 1",
+			"loop": false,
+			"name": "singUP-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 45.3333333333333,
+			"y": -4,
+			"anim": "Lefft instance 1",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 78.6666666666667,
+			"y": 93.3333333333333,
+			"anim": "Right instance 1",
+			"loop": false,
+			"name": "singRIGHT-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -7.11111111111111,
+			"y": 23.7037037037037,
+			"anim": "Upo instance 1",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 30.6666666666667,
+			"y": 8,
+			"anim": "03 instance 1",
+			"loop": false,
+			"name": "awakens",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 18.6666666666667,
+			"y": -142.666666666667,
+			"anim": "02 instance 1",
+			"loop": false,
+			"name": "sleeping",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -16,
+			"y": 30.6666666666667,
+			"anim": "1:22 instance 1",
+			"loop": false,
+			"name": "lookAtPap",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -19.6666666666667,
+			"y": 5.66666666666667,
+			"anim": "S-Right instance 1",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 158.666666666667,
+			"y": 52,
+			"anim": "Left instance 1",
+			"loop": false,
+			"name": "singDOWN-alt",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 1
+}

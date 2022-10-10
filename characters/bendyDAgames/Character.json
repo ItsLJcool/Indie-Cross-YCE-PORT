@@ -1,0 +1,147 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": 140,
+		"y": 60
+	},
+	"globalOffset": {
+		"x": 50,
+		"y": 310
+	},
+	"healthbarColor": "#696B6D",
+	"flipX": false,
+	"anims": [
+		{
+			"indices": null,
+			"x": 141.333333333333,
+			"y": 156,
+			"anim": "Oblivion Bendy instance 1",
+			"loop": true,
+			"name": "idle-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 99,
+			"y": 136,
+			"anim": "Right Oblivion instance 1",
+			"loop": false,
+			"name": "singRIGHT-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 76.640625,
+			"y": -39,
+			"anim": "Down Normal instance 1",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 184.390625,
+			"y": 116.3125,
+			"anim": "Left Oblivion instance 1",
+			"loop": false,
+			"name": "singLEFT-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 55.6875,
+			"y": 60.328125,
+			"anim": "Up Normal instance 1",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 27,
+			"y": -32.265625,
+			"anim": "You've got this instance 1",
+			"loop": false,
+			"name": "youGotThis",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "Idle Normal instance 1",
+			"loop": true,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -3.7626953125,
+			"y": -19.2373046875,
+			"anim": "Transformation instance 1",
+			"loop": false,
+			"name": "transform",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 103,
+			"y": 112,
+			"anim": "Down Oblivion instance 1",
+			"loop": false,
+			"name": "singDOWN-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 19.828125,
+			"y": -24.890625,
+			"anim": "Right Normal instance 1",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -50,
+			"y": 112,
+			"anim": "ugh lowblow instance 1",
+			"loop": false,
+			"name": "ugh",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 23,
+			"y": 205,
+			"anim": "Up Oblivion instance 1",
+			"loop": false,
+			"name": "singUP-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 147.76171875,
+			"y": -28.4765625,
+			"anim": "Left instance 1",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 1
+}

@@ -1,0 +1,129 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": -330,
+		"y": 250
+	},
+	"globalOffset": {
+		"x": -150,
+		"y": 0
+	},
+	"healthbarColor": "#31B0D1",
+	"flipX": true,
+	"anims": [
+		{
+			"indices": null,
+			"x": 978,
+			"y": -367.617283950617,
+			"anim": "0BF attack copy instance 1",
+			"loop": false,
+			"name": "attack",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -160.875,
+			"y": -331.3125,
+			"anim": "L-Miss instance 1",
+			"loop": false,
+			"name": "singRIGHTmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -162.340277777778,
+			"y": -386.8125,
+			"anim": "0Ouu instance 1",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -123.375,
+			"y": -331.125,
+			"anim": "R-Miss instance 1",
+			"loop": false,
+			"name": "singLEFTmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -181.423611111111,
+			"y": -296.798611111111,
+			"anim": "0UPPP instance 1",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -143.098765432099,
+			"y": -352.975308641975,
+			"anim": "0Idle instance 1",
+			"loop": false,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -172.722222222222,
+			"y": -355.833333333333,
+			"anim": "0EEEE instance 1",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -177.1875,
+			"y": -375.583333333333,
+			"anim": "D-Miss instance 1",
+			"loop": false,
+			"name": "singDOWNmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -194.25,
+			"y": -246,
+			"anim": "U-Miss instance 1",
+			"loop": false,
+			"name": "singUPmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -72,
+			"y": -358.895833333333,
+			"anim": "0EERR instance 1",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -135,
+			"y": -312,
+			"anim": "gdgdg instance 1",
+			"loop": false,
+			"name": "uhhIdkWhatThisIs",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 1
+}

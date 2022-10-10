@@ -1,0 +1,109 @@
+﻿<?xml version="0.5" encoding="utf-8"?>
+<TextureAtlas imagePath="Mugman Fucking dies.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MUGMANDEAD YES instance 10000" x="5" y="5" width="185.5" height="204" frameX="0" frameY="0" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10001" x="195.5" y="5" width="211" height="154" frameX="-94" frameY="-90" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10002" x="411.5" y="5" width="212" height="157" frameX="-95" frameY="-67" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10003" x="628.5" y="5" width="184.5" height="205" frameX="-154.5" frameY="-48" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10004" x="818" y="5" width="232" height="124.5" frameX="-143" frameY="-95" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10005" x="1055" y="5" width="245.5" height="154.5" frameX="-181.5" frameY="-83" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10006" x="1305.5" y="5" width="309" height="105" frameX="-175" frameY="-130" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10007" x="1619.5" y="5" width="294.5" height="115.5" frameX="-185" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10008" x="5" y="215" width="295" height="115.5" frameX="-188.5" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10009" x="5" y="215" width="295" height="115.5" frameX="-192" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10010" x="5" y="215" width="295" height="115.5" frameX="-196.5" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10011" x="5" y="215" width="295" height="115.5" frameX="-201.5" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10012" x="5" y="215" width="295" height="115.5" frameX="-205.5" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10013" x="5" y="215" width="295" height="115.5" frameX="-209" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10014" x="5" y="215" width="295" height="115.5" frameX="-212.5" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10015" x="5" y="215" width="295" height="115.5" frameX="-215.5" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10016" x="5" y="215" width="295" height="115.5" frameX="-218.5" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10017" x="5" y="215" width="295" height="115.5" frameX="-220.5" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10018" x="5" y="215" width="295" height="115.5" frameX="-222.5" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10019" x="5" y="215" width="295" height="115.5" frameX="-224" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10020" x="5" y="215" width="295" height="115.5" frameX="-225.5" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10021" x="5" y="215" width="295" height="115.5" frameX="-226.5" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10022" x="5" y="215" width="295" height="115.5" frameX="-227.5" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10023" x="1619.5" y="5" width="294.5" height="115.5" frameX="-228" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10024" x="1619.5" y="5" width="294.5" height="115.5" frameX="-228" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10025" x="1619.5" y="5" width="294.5" height="115.5" frameX="-228" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10026" x="1619.5" y="5" width="294.5" height="115.5" frameX="-228" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10027" x="1619.5" y="5" width="294.5" height="115.5" frameX="-228" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10028" x="1619.5" y="5" width="294.5" height="115.5" frameX="-228" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10029" x="1619.5" y="5" width="294.5" height="115.5" frameX="-228" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="MUGMANDEAD YES instance 10030" x="1619.5" y="5" width="294.5" height="115.5" frameX="-228" frameY="-120" frameWidth="523" frameHeight="253"/>
+	<SubTexture name="Mugman instance 10000" x="305" y="215" width="159.5" height="230.5" frameX="-333" frameY="-10.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10001" x="305" y="215" width="159.5" height="230.5" frameX="-333" frameY="-10.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10002" x="469.5" y="215" width="158" height="226.5" frameX="-333.5" frameY="-12.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10003" x="469.5" y="215" width="158" height="226.5" frameX="-333.5" frameY="-12.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10004" x="632.5" y="215" width="147" height="227.5" frameX="-330" frameY="-8.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10005" x="632.5" y="215" width="147" height="227.5" frameX="-330" frameY="-8.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10006" x="784.5" y="215" width="125" height="234" frameX="-334" frameY="-2.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10007" x="784.5" y="215" width="125" height="234" frameX="-334" frameY="-2.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10008" x="914.5" y="215" width="131.5" height="236.5" frameX="-319.5" frameY="0" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10009" x="914.5" y="215" width="131.5" height="236.5" frameX="-319.5" frameY="0" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10010" x="1051" y="215" width="157" height="232" frameX="-273" frameY="-2.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10011" x="1051" y="215" width="157" height="232" frameX="-273" frameY="-2.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10012" x="1213" y="215" width="178.5" height="230.5" frameX="-238.5" frameY="-9.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10013" x="1213" y="215" width="178.5" height="230.5" frameX="-238.5" frameY="-9.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10014" x="1396.5" y="215" width="175.5" height="231" frameX="-225.5" frameY="-11.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10015" x="1396.5" y="215" width="175.5" height="231" frameX="-225.5" frameY="-11.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10016" x="1577" y="215" width="165.5" height="232.5" frameX="-226.5" frameY="-9" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10017" x="1577" y="215" width="165.5" height="232.5" frameX="-226.5" frameY="-9" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10018" x="1747.5" y="215" width="128" height="240.5" frameX="-246" frameY="-2.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10019" x="1747.5" y="215" width="128" height="240.5" frameX="-246" frameY="-2.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10020" x="1880.5" y="215" width="125.5" height="242.5" frameX="-242.5" frameY="-0.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10021" x="1880.5" y="215" width="125.5" height="242.5" frameX="-242.5" frameY="-0.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10022" x="5" y="462.5" width="140.5" height="240" frameX="-202.5" frameY="-2.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10023" x="5" y="462.5" width="140.5" height="240" frameX="-202.5" frameY="-2.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10024" x="150.5" y="462.5" width="159" height="236" frameX="-169" frameY="-5.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10025" x="150.5" y="462.5" width="159" height="236" frameX="-169" frameY="-5.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10026" x="305" y="215" width="159.5" height="230.5" frameX="-164" frameY="-10.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10027" x="305" y="215" width="159.5" height="230.5" frameX="-164" frameY="-10.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10028" x="469.5" y="215" width="158" height="226.5" frameX="-164.5" frameY="-12.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10029" x="469.5" y="215" width="158" height="226.5" frameX="-164.5" frameY="-12.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10030" x="632.5" y="215" width="147" height="227.5" frameX="-161" frameY="-8.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10031" x="632.5" y="215" width="147" height="227.5" frameX="-161" frameY="-8.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10032" x="314.5" y="462.5" width="125" height="234" frameX="-165" frameY="-2.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10033" x="314.5" y="462.5" width="125" height="234" frameX="-165" frameY="-2.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10034" x="444.5" y="462.5" width="131.5" height="236.5" frameX="-150.5" frameY="0" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10035" x="444.5" y="462.5" width="131.5" height="236.5" frameX="-150.5" frameY="0" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10036" x="581" y="462.5" width="157" height="232" frameX="-104" frameY="-2.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10037" x="581" y="462.5" width="157" height="232" frameX="-104" frameY="-2.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10038" x="743" y="462.5" width="178.5" height="230.5" frameX="-69.5" frameY="-9.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10039" x="743" y="462.5" width="178.5" height="230.5" frameX="-69.5" frameY="-9.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10040" x="926.5" y="462.5" width="175" height="231" frameX="-56.5" frameY="-11.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10041" x="926.5" y="462.5" width="175" height="231" frameX="-56.5" frameY="-11.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10042" x="1106.5" y="462.5" width="165.5" height="232.5" frameX="-57.5" frameY="-9" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10043" x="1106.5" y="462.5" width="165.5" height="232.5" frameX="-57.5" frameY="-9" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10044" x="1277" y="462.5" width="127.5" height="240.5" frameX="-77" frameY="-2.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10045" x="1277" y="462.5" width="127.5" height="240.5" frameX="-77" frameY="-2.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10046" x="1409.5" y="462.5" width="125.5" height="242.5" frameX="-73" frameY="-0.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10047" x="1409.5" y="462.5" width="125.5" height="242.5" frameX="-73" frameY="-0.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10048" x="1540" y="462.5" width="140" height="240" frameX="-33.5" frameY="-2.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10049" x="1540" y="462.5" width="140" height="240" frameX="-33.5" frameY="-2.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10050" x="1685" y="462.5" width="158.5" height="236" frameX="0" frameY="-5.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10051" x="1685" y="462.5" width="158.5" height="236" frameX="0" frameY="-5.5" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10052" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10053" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10054" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10055" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10056" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10057" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10058" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10059" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10060" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10061" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10062" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10063" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10064" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10065" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10066" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10067" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10068" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10069" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10070" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10071" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+	<SubTexture name="Mugman instance 10072" x="1848.5" y="462.5" width="160.5" height="235.5" frameX="-0.5" frameY="-6" frameWidth="492.5" frameHeight="243"/>
+</TextureAtlas>

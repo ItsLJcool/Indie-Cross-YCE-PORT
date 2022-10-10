@@ -1,0 +1,210 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": -200,
+		"y": -100
+	},
+	"globalOffset": {
+		"x": -10,
+		"y": 353
+	},
+	"healthbarColor": "#31B0D1",
+	"flipX": true,
+	"anims": [
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "BFA idle dance  instance 1",
+			"loop": false,
+			"name": "idle-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -33,
+			"y": -31,
+			"anim": "BF NOTE DOWN instance 1",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -34.58203125,
+			"y": -32.05078125,
+			"anim": "BFS NOTE DOWN instance 1",
+			"loop": false,
+			"name": "singDOWNscared",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 14,
+			"y": 22,
+			"anim": "R-Miss instance 1",
+			"loop": false,
+			"name": "singLEFTmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 26,
+			"y": -3,
+			"anim": "BFA NOTE LEFT  instance 1",
+			"loop": false,
+			"name": "singLEFT-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -1.03472222222222,
+			"y": 149.263888888889,
+			"anim": "Ouch instance 1",
+			"loop": false,
+			"name": "hit",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -0.5625,
+			"y": -1.6875,
+			"anim": "BFS idle  instance 1",
+			"loop": false,
+			"name": "idleScared",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "BF idle dance instance 1",
+			"loop": false,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 29,
+			"y": -2.66666666666667,
+			"anim": "BF NOTE LEFT instance 1",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -51,
+			"y": 109,
+			"anim": "U-Miss instance 1",
+			"loop": false,
+			"name": "singUPmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -50.375,
+			"y": 56.6875,
+			"anim": "BFA NOTE UP  instance 1",
+			"loop": false,
+			"name": "singUP-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 28,
+			"y": -3,
+			"anim": "BFS NOTE LEFT instance 1",
+			"loop": false,
+			"name": "singLEFTscared",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -25,
+			"y": 23,
+			"anim": "L-Miss instance 1",
+			"loop": false,
+			"name": "singRIGHTmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -35,
+			"y": 3,
+			"anim": "BFA NOTE RIGHT  instance 1",
+			"loop": false,
+			"name": "singRIGHT-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -49,
+			"y": 56,
+			"anim": "BF NOTE UP instance 1",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -50.578125,
+			"y": 55.421875,
+			"anim": "BFS NOTE UP instance 1",
+			"loop": false,
+			"name": "singUPscared",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -33,
+			"y": -30,
+			"anim": "BFA NOTE DOWN  instance 1",
+			"loop": false,
+			"name": "singDOWN-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -45,
+			"y": -20,
+			"anim": "D-Miss instance 1",
+			"loop": false,
+			"name": "singDOWNmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -34,
+			"y": 3,
+			"anim": "BF NOTE RIGHT instance 1",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -34.18359375,
+			"y": 2.56640625,
+			"anim": "BFS NOTE RIGHT instance 1",
+			"loop": false,
+			"name": "singRIGHTscared",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 1
+}

@@ -1,0 +1,92 @@
+[
+	{
+		"textSFX": "pixelText",
+		"dialogueNames": [
+			"AAH loop",
+			"Normal open",
+			"AAH open",
+			"Normal loop"
+		],
+		"pathDir": "shared",
+		"musicLoop": true,
+		"dialoguePNG": "speech_bubble_talking",
+		"hasMusic": true,
+		"textFont": "Pixel Arial 11 Bold",
+		"dialogueIntro": "Normal open",
+		"dialogueLoop": "Normal loop",
+		"music": "settin",
+		"textColor": "Black",
+		"textSize": 32,
+		"textXY": [
+			50,
+			100
+		],
+		"dialogueLoopAnims": [
+			true,
+			false,
+			false,
+			true
+		]
+	},
+	{
+		"changeDialogueNames": [
+			"Dialogue Ends",
+			"Normal open",
+			"Wink",
+			"closed eyes",
+			"funny",
+			"no eyes",
+			"dying gay"
+		],
+		"changeDialoguePathDir": "images",
+		"playSFX": null,
+		"cutsceneCallCustomFunction": false,
+		"changeDialoguePNG": "sans/Sans_Text_box",
+		"changeDialogueScale": [
+			0.75,
+			0.75
+		],
+		"stopMusic": false,
+		"onStart": "",
+		"changeDialogueIntro": "Normal open",
+		"playAnim": "singUP",
+		"onBeat": "",
+		"changeTextColor": "White",
+		"changeDialogueLoopAnims": [
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false
+		],
+		"char": "filePath",
+		"changeTextSFX": "sans/snd_txtsans",
+		"onUpdate": "",
+		"onComplete": "",
+		"resumeMusic": false,
+		"customFunction": "",
+		"continueNext": null,
+		"onStep": "",
+		"changeTextFont": "realIndieFonts/Comic Sans [PIXEL]",
+		"changeDialogueOffsetXY": [
+			150,
+			500
+		],
+		"continueDelay": null,
+		"dialoguePlayAnim": "Normal open",
+		"text": "Default Text",
+		"playCutscene": false,
+		"noText": null,
+		"changeTextSize": null,
+		"changeTextXY": [
+			200,
+			50
+		]
+	},
+	{
+		"char": "filePath",
+		"text": "Guh??"
+	}
+]

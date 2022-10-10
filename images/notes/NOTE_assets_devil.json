@@ -1,0 +1,13 @@
+{
+    "antialiasing": true,
+    "scale": 1,
+    "useColorShader": false,
+    "animations": [
+        {
+            "name": "oUCH",
+            "x": -120,
+            "y": -180,
+            "fps": 24
+        }
+    ]
+}

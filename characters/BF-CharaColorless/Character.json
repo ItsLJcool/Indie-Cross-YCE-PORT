@@ -1,0 +1,102 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": 0,
+		"y": 0
+	},
+	"globalOffset": {
+		"x": 0,
+		"y": 0
+	},
+	"healthbarColor": "#31A8C7",
+	"flipX": true,
+	"anims": [
+		{
+			"indices": null,
+			"x": 22.78125,
+			"y": -14.765625,
+			"anim": "0Ouu instance 1",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -24.46875,
+			"y": 28.6875,
+			"anim": "0UPPP instance 1",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -0.84375,
+			"y": -14.34375,
+			"anim": "Ouch instance 1",
+			"loop": false,
+			"name": "ouch Unused",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 15.1875,
+			"y": 69.1875,
+			"anim": "Pee instance 1",
+			"loop": false,
+			"name": "switchHeart Unused",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "0Idle instance 1",
+			"loop": false,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -13.5,
+			"y": -4.5,
+			"anim": "0EEEE instance 1",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 21.515625,
+			"y": -7.59375,
+			"anim": "0EERR instance 1",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 4.640625,
+			"y": -0.421875,
+			"anim": "Dodge instance 1",
+			"loop": false,
+			"name": "dodge Unused",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": false,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 0.5
+}

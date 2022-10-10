@@ -1,0 +1,143 @@
+{
+	"arrowColors": [
+		"#8E2C4D",
+		"#8E2C4D",
+		"#8D2C4D",
+		"#8D2C4D"
+	],
+	"camOffset": {
+		"x": 150,
+		"y": 50
+	},
+	"globalOffset": {
+		"x": 40,
+		"y": 200
+	},
+	"healthbarColor": "#B8104E",
+	"flipX": false,
+	"anims": [
+		{
+			"indices": null,
+			"x": 1,
+			"y": 14,
+			"anim": "Hadoken or Roundabout instance 1",
+			"loop": false,
+			"name": "attack",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 33,
+			"y": -70,
+			"anim": "ShootDown instance 1",
+			"loop": false,
+			"name": "singDOWN-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 14,
+			"y": -67,
+			"anim": "Down  instance 1",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 89,
+			"y": -17,
+			"anim": "ShootUp instance 1",
+			"loop": false,
+			"name": "singUP-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 95,
+			"y": 89,
+			"anim": "Up instance 1",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "Idle instance 1",
+			"loop": true,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -9,
+			"y": -54,
+			"anim": "ShootRight instance 1",
+			"loop": false,
+			"name": "singRIGHT-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -7,
+			"y": -50,
+			"anim": "Right instance 1",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 94,
+			"y": -117,
+			"anim": "ShootLeft instance 1",
+			"loop": false,
+			"name": "singLEFT-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 144,
+			"y": -100,
+			"anim": "Left instance 1",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 86,
+			"y": -91,
+			"anim": "Dodgez instance 1",
+			"loop": false,
+			"name": "dodge",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -36,
+			"y": -217,
+			"anim": "Beamm instance 1",
+			"loop": true,
+			"name": "shoot",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 1.1
+}

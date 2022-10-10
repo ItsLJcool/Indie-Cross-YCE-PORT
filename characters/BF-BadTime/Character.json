@@ -1,0 +1,138 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": -250,
+		"y": 250
+	},
+	"globalOffset": {
+		"x": -110,
+		"y": 10
+	},
+	"healthbarColor": "#31B0D1",
+	"flipX": true,
+	"anims": [
+		{
+			"indices": null,
+			"x": 999,
+			"y": -353.975308641975,
+			"anim": "0BF attack instance 1",
+			"loop": false,
+			"name": "attack",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -151.5,
+			"y": -321.75,
+			"anim": "BF NOTE RIGHT MISS instance 1",
+			"loop": false,
+			"name": "singRIGHTmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -121.8125,
+			"y": -380,
+			"anim": "BF NOTE DOWN instance 1",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -148.5,
+			"y": -288.75,
+			"anim": "BF NOTE UP instance 1",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -120,
+			"y": -320,
+			"anim": "BF NOTE LEFT MISS instance 1",
+			"loop": false,
+			"name": "singLEFTmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -45.3333333333333,
+			"y": -294.666666666667,
+			"anim": "BF hit instance 1",
+			"loop": false,
+			"name": "hit",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -100,
+			"y": -343,
+			"anim": "BF idle dance instance 1",
+			"loop": false,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -130.5,
+			"y": -342,
+			"anim": "BF NOTE RIGHT instance 1",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -126.75,
+			"y": -360.75,
+			"anim": "BF NOTE DOWN MISS instance 1",
+			"loop": false,
+			"name": "singDOWNmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -147,
+			"y": -324.75,
+			"anim": "BF NOTE UP MISS instance 1",
+			"loop": false,
+			"name": "singUPmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -70,
+			"y": -346,
+			"anim": "BF NOTE LEFT instance 1",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -112,
+			"y": -350.666666666667,
+			"anim": "boyfriend dodge instance 1",
+			"loop": false,
+			"name": "dodge",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 1
+}

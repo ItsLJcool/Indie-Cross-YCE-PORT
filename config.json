@@ -1,0 +1,29 @@
+{
+	"skinnableGFs": [],
+	"discordRpc": null,
+	"locked": false,
+	"downloadLink": null,
+	"BFskins": [],
+	"name": "Indie Cross",
+	"intro": {
+		"newgrounds": "To YCE",
+		"authors": [
+			"Brightfyre, and, Indie Cross Team"
+		],
+		"gameName": [
+			"YCE Port",
+			"Indie",
+			"Cross"
+		],
+		"assoc": [
+			"With LJ', 'Porting Indie Cross"
+		],
+		"bpm": 117,
+		"present": "Very Cool People"
+	},
+	"skinnableBFs": [],
+	"description": "Port Of Indie Cross To YCE",
+	"titleBarName": "Indie Cross",
+	"GFskins": [],
+	"downloadLinkAlt": null
+}

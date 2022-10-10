@@ -1,0 +1,13 @@
+{
+    "antialiasing": true,
+    "scale": 1,
+    "useColorShader": false,
+    "animations": [
+        {
+            "name": "RedC instance 1",
+            "x": -140,
+            "y": -130,
+            "fps": 24
+        }
+    ]
+}

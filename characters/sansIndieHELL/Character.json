@@ -1,0 +1,147 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": 200,
+		"y": -50
+	},
+	"globalOffset": {
+		"x": -60,
+		"y": 240
+	},
+	"healthbarColor": "#FFFFFF",
+	"flipX": false,
+	"anims": [
+		{
+			"indices": null,
+			"x": -15,
+			"y": -2,
+			"anim": "Sans FNF Tired instance 1",
+			"loop": false,
+			"name": "idle-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -12,
+			"y": -2,
+			"anim": "Right Tired instance 1",
+			"loop": false,
+			"name": "singRIGHT-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -2.45833333333333,
+			"y": -16.3541666666667,
+			"anim": "Down instance 1",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 53,
+			"y": 1,
+			"anim": "Left Tired instance 1",
+			"loop": false,
+			"name": "singLEFT-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -6.36111111111111,
+			"y": 27.6944444444444,
+			"anim": "Up instance 1",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "Sans FNF instance 1",
+			"loop": true,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -2,
+			"y": -16,
+			"anim": "Down Tired instance 1",
+			"loop": false,
+			"name": "singDOWN-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -13,
+			"y": -1.33333333333333,
+			"anim": "Right instance 1",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 126,
+			"y": 19,
+			"anim": "SansDodgeTired instance 1",
+			"loop": false,
+			"name": "dodgeTired",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 46,
+			"y": 29,
+			"anim": "Up Tired instance 1",
+			"loop": false,
+			"name": "singUP-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 18,
+			"y": -3,
+			"anim": "Snap to UT mode instance 1",
+			"loop": false,
+			"name": "switchToUT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 53,
+			"y": 0,
+			"anim": "Left instance 1",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 126,
+			"y": 20,
+			"anim": "SansDodge instance 1",
+			"loop": false,
+			"name": "dodge",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 1
+}

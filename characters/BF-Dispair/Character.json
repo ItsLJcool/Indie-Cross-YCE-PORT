@@ -1,0 +1,192 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": -150,
+		"y": -180
+	},
+	"globalOffset": {
+		"x": 180,
+		"y": 490
+	},
+	"healthbarColor": "#31B0D1",
+	"flipX": true,
+	"anims": [
+		{
+			"indices": null,
+			"x": 14.2222222222222,
+			"y": -1.77777777777778,
+			"anim": "BF idle dance copy instance 1",
+			"loop": false,
+			"name": "idle-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -14.2222222222222,
+			"y": -32,
+			"anim": "BF NOTE DOWN copy instance 1",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 28.4444444444444,
+			"y": 24.8888888888889,
+			"anim": "R-Miss instance 1",
+			"loop": false,
+			"name": "singLEFTmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 49.7777777777778,
+			"y": 0,
+			"anim": "BF NOTE LEFT copy 2 instance 1",
+			"loop": false,
+			"name": "singLEFT-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "BF idle dance copy 2 instance 1",
+			"loop": true,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -33.7777777777778,
+			"y": 158.222222222222,
+			"anim": "Attack instance 2",
+			"loop": false,
+			"name": "attackRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -40.8888888888889,
+			"y": 117.333333333333,
+			"anim": "U-Miss instance 1",
+			"loop": false,
+			"name": "singUPmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -33.7777777777778,
+			"y": 62.2222222222222,
+			"anim": "BF NOTE UP copy 2 instance 1",
+			"loop": false,
+			"name": "singUP-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 53.3333333333333,
+			"y": -5.33333333333333,
+			"anim": "BF NOTE LEFT copy instance 1",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 14.2222222222222,
+			"y": 17.7777777777778,
+			"anim": "Dodge instance 1",
+			"loop": false,
+			"name": "dodge",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -8.88888888888889,
+			"y": 24.8888888888889,
+			"anim": "L-Miss instance 1",
+			"loop": false,
+			"name": "singRIGHTmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -17.7777777777778,
+			"y": 3.55555555555556,
+			"anim": "BF NOTE RIGHT copy 2 instance 1",
+			"loop": false,
+			"name": "singRIGHT-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -30.2222222222222,
+			"y": 60.4444444444444,
+			"anim": "BF NOTE UP copy instance 1",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 5.33333333333333,
+			"y": 163.555555555556,
+			"anim": "Ouch instance 1",
+			"loop": false,
+			"name": "ouch",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -16,
+			"y": -30.2222222222222,
+			"anim": "BF NOTE DOWN copy 2 instance 1",
+			"loop": false,
+			"name": "singDOWN-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -26.6666666666667,
+			"y": -17.7777777777778,
+			"anim": "D-Miss instance 1",
+			"loop": false,
+			"name": "singDOWNmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -14.2222222222222,
+			"y": 3.55555555555556,
+			"anim": "BF NOTE RIGHT copy instance 1",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 419.555555555556,
+			"y": 158.222222222222,
+			"anim": "Attack instance 1",
+			"loop": false,
+			"name": "attackLEFT",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 1.7
+}

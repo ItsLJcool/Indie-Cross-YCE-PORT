@@ -1,0 +1,165 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": -150,
+		"y": -100
+	},
+	"globalOffset": {
+		"x": -10,
+		"y": 260
+	},
+	"healthbarColor": "#FFFFFF",
+	"flipX": false,
+	"anims": [
+		{
+			"indices": null,
+			"x": 54,
+			"y": 25,
+			"anim": "upahgn instance 1",
+			"loop": false,
+			"name": "singRIGHT-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 27,
+			"y": -69,
+			"anim": "fzt instance 1",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 266,
+			"y": -56,
+			"anim": "SANS WAKE UP BITCH instance 1",
+			"loop": false,
+			"name": "singLEFT-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 82,
+			"anim": "Up instance 1",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 73,
+			"y": -16,
+			"anim": "Even more Mad instance 1",
+			"loop": false,
+			"name": "StompingTwo",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 17,
+			"y": -26,
+			"anim": "Bruh instance 1",
+			"loop": true,
+			"name": "bruh",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 59,
+			"y": 32,
+			"anim": "Sans lessgo instance 1",
+			"loop": false,
+			"name": "niceOneSans",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 0,
+			"y": 0,
+			"anim": "Idle instance 1",
+			"loop": false,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 73,
+			"y": -26,
+			"anim": "gzezy instance 1",
+			"loop": false,
+			"name": "StompingOne",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 51,
+			"y": -2,
+			"anim": "That's ma boi instance 1",
+			"loop": false,
+			"name": "lookAtSans",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 145,
+			"y": 16,
+			"anim": "jghrue instance 1",
+			"loop": false,
+			"name": "singDOWN-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -3,
+			"y": -37,
+			"anim": "Right copy instance 1",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 88,
+			"y": 81,
+			"anim": "ISTG instance 1",
+			"loop": false,
+			"name": "singUP-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 115,
+			"y": 5,
+			"anim": "left instance 1",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 8,
+			"y": 50,
+			"anim": "Oh Sans you Mother fuc- instance 1",
+			"loop": false,
+			"name": "papNotice",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 1.45
+}

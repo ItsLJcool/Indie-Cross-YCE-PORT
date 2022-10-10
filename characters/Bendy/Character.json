@@ -1,0 +1,84 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": 550,
+		"y": -400
+	},
+	"globalOffset": {
+		"x": 0,
+		"y": 0
+	},
+	"healthbarColor": "#000000",
+	"flipX": false,
+	"anims": [
+		{
+			"indices": null,
+			"x": -160,
+			"y": 60,
+			"anim": "Bendy Idle instance 1",
+			"loop": false,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -29.9878472222222,
+			"y": 11.5202546296296,
+			"anim": "B-Right instance 1",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -14.8230251736111,
+			"y": -29.4444444444445,
+			"anim": "bendydown instance 1",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 122.796875,
+			"y": 310.28125,
+			"anim": "Up instance 1",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": 424.110677083333,
+			"y": 74.331886574074,
+			"anim": "Left instance 1",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -13.171875,
+			"y": 61.578125,
+			"anim": "Scream instance 1",
+			"loop": false,
+			"name": "Scream",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 2.5
+}

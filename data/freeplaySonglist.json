@@ -1,0 +1,174 @@
+{
+	"songs": [
+		{
+			"displayName": null,
+			"difficulties": [
+				"Easy",
+				"Normal",
+				"Hard"
+			],
+			"char": "cuphead",
+			"color": "#FFFFFF",
+			"name": "snake-eyes",
+			"bpm": 221
+		},
+		{
+			"difficulties": [
+				"Easy",
+				"Normal",
+				"Hard"
+			],
+			"displayName": null,
+			"char": "cuphead",
+			"bpm": 140,
+			"name": "technicolor-tussle",
+			"color": "#FFFFFF"
+		},
+		{
+			"displayName": null,
+			"difficulties": [
+				"Easy",
+				"Normal",
+				"Hard"
+			],
+			"char": "cupheadPissed",
+			"color": "#FFFFFF",
+			"name": "knockout",
+			"bpm": 136
+		},
+		{
+			"difficulties": [
+				"devilish"
+			],
+			"displayName": null,
+			"char": "cupheadNightmare",
+			"bpm": 175,
+			"name": "devils-gambit",
+			"color": "#FFFFFF"
+		},
+		{
+			"difficulties": [
+				"Easy",
+				"Normal",
+				"Hard"
+			],
+			"displayName": null,
+			"char": "sansIndie",
+			"bpm": 170,
+			"name": "whoopee",
+			"color": "#FFFFFF"
+		},
+		{
+			"difficulties": [
+				"Easy",
+				"Normal",
+				"Hard"
+			],
+			"displayName": null,
+			"char": "sansIndie",
+			"bpm": 130,
+			"name": "sansational",
+			"color": "#FFFFFF"
+		},
+		{
+			"difficulties": [
+				"Easy",
+				"Normal",
+				"Hard"
+			],
+			"displayName": null,
+			"char": "sansIndieHELL",
+			"bpm": 170,
+			"name": "burning-in-hell",
+			"color": "#FFFFFF"
+		},
+		{
+			"displayName": null,
+			"difficulties": [
+				"Hard"
+			],
+			"char": "sansIndie",
+			"color": "#FFFFFF",
+			"name": "final-stretch",
+			"bpm": 175
+		},
+		{
+			"displayName": null,
+			"difficulties": [
+				"Easy",
+				"Normal",
+				"Hard"
+			],
+			"char": "Papyrus",
+			"color": "#FFFFFF",
+			"name": "bonedoggle",
+			"bpm": 150
+		},
+		{
+			"difficulties": [
+				"Easy",
+				"Normal",
+				"Hard"
+			],
+			"displayName": null,
+			"char": "bendyDAgames",
+			"bpm": 200,
+			"name": "imminent-demise",
+			"color": "#FFFFFF"
+		},
+		{
+			"displayName": null,
+			"difficulties": [
+				"Easy",
+				"Normal",
+				"Hard"
+			],
+			"char": "bendy",
+			"color": "#FFFFFF",
+			"name": "terrible-sin",
+			"bpm": 220
+		},
+		{
+			"difficulties": [
+				"Easy",
+				"Normal",
+				"Hard"
+			],
+			"displayName": null,
+			"char": "Bendy",
+			"bpm": 195,
+			"name": "last-reel",
+			"color": "#FFFFFF"
+		},
+		{
+			"displayName": null,
+			"difficulties": [
+				"Hard"
+			],
+			"char": "BendyNMrun",
+			"color": "#FFFFFF",
+			"name": "nightmare-run",
+			"bpm": 166
+		},
+		{
+			"difficulties": [
+				"Genocidal"
+			],
+			"displayName": null,
+			"char": "sansBadTime",
+			"bpm": 150,
+			"name": "bad-time",
+			"color": "#FFFFFF"
+		},
+		{
+			"displayName": null,
+			"difficulties": [
+				"Demonic"
+			],
+			"char": "bendyDis",
+			"color": "#FFFFFF",
+			"name": "despair",
+			"bpm": 150
+		}
+	]
+}

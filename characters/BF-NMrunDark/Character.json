@@ -1,0 +1,120 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": -300,
+		"y": 170
+	},
+	"globalOffset": {
+		"x": 0,
+		"y": -90
+	},
+	"healthbarColor": "#31B0D1",
+	"flipX": true,
+	"anims": [
+		{
+			"indices": null,
+			"x": -80.6399739583334,
+			"y": -430.698567708334,
+			"anim": "Run_When Bendy is Close instance 1",
+			"loop": true,
+			"name": "idle-alt",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -67.6458333333334,
+			"y": -483.173611111112,
+			"anim": "Right Miss instance 1",
+			"loop": false,
+			"name": "singRIGHTmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -81.4208170572917,
+			"y": -431.022623697917,
+			"anim": "Down instance 1",
+			"loop": true,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -85.6041666666668,
+			"y": -483.555555555556,
+			"anim": "Left Miss instance 1",
+			"loop": false,
+			"name": "singLEFTmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -81.3333333333333,
+			"y": -430.666666666667,
+			"anim": "Up instance 1",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -81.5,
+			"y": -430.75,
+			"anim": "Run_cycle instance 1",
+			"loop": true,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -69.2430555555557,
+			"y": -482.791666666667,
+			"anim": "Down Miss instance 1",
+			"loop": false,
+			"name": "singDOWNmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -80.8457573784723,
+			"y": -431.112114800347,
+			"anim": "Rightt instance 1",
+			"loop": true,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -80.0902777777778,
+			"y": -430.576171875,
+			"anim": "Leftt instance 1",
+			"loop": true,
+			"name": "singLEFT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -77.3541666666668,
+			"y": -474.562500000001,
+			"anim": "Up Miss instance 1",
+			"loop": false,
+			"name": "singUPmiss",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 1.25
+}

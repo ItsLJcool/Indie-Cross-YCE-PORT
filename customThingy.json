@@ -1,0 +1,16 @@
+[
+	{
+		"x": 0,
+		"centerSpr": true,
+		"prefixes": ["run"],
+		"title": "Shit",
+		"y": 0,
+		"fps": 24,
+		"xmlNames": ["AAAAright instance 1"],
+		"desc": "explain",
+		"type": "xml",
+		"loop": true,
+		"moreShit": true,
+		"path": "old/images/LEGSS"
+	}
+]

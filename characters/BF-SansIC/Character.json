@@ -1,0 +1,129 @@
+{
+	"arrowColors": null,
+	"camOffset": {
+		"x": -330,
+		"y": 250
+	},
+	"globalOffset": {
+		"x": -120,
+		"y": 0
+	},
+	"healthbarColor": "#31B0D1",
+	"flipX": true,
+	"anims": [
+		{
+			"indices": null,
+			"x": 973,
+			"y": -363.635802469136,
+			"anim": "0BF attack instance 1",
+			"loop": false,
+			"name": "attack",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -128,
+			"y": -332,
+			"anim": "L-Miss instance 1",
+			"loop": false,
+			"name": "singRIGHTmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -140.484375,
+			"y": -386.109375,
+			"anim": "BF NOTE DOWN instance 1",
+			"loop": false,
+			"name": "singDOWN",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -92,
+			"y": -336,
+			"anim": "R-Miss instance 1",
+			"loop": false,
+			"name": "singLEFTmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -154.5,
+			"y": -297.75,
+			"anim": "BF NOTE UP instance 1",
+			"loop": false,
+			"name": "singUP",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -135,
+			"y": -362,
+			"anim": "OuchBonesinmyAss instance 1",
+			"loop": false,
+			"name": "boneFuck",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -109.078125,
+			"y": -353.25,
+			"anim": "BF idle dance instance 1",
+			"loop": false,
+			"name": "idle",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -148,
+			"y": -376,
+			"anim": "D-Miss instance 1",
+			"loop": false,
+			"name": "singDOWNmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -142.5,
+			"y": -351,
+			"anim": "BF NOTE RIGHT instance 1",
+			"loop": false,
+			"name": "singRIGHT",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -154,
+			"y": -245,
+			"anim": "U-Miss instance 1",
+			"loop": false,
+			"name": "singUPmiss",
+			"framerate": 24
+		},
+		{
+			"indices": null,
+			"x": -79.41796875,
+			"y": -356.609375,
+			"anim": "BF NOTE LEFT instance 1",
+			"loop": false,
+			"name": "singLEFT",
+			"framerate": 24
+		}
+	],
+	"danceSteps": [
+		"idle"
+	],
+	"antialiasing": true,
+	"healthIconSteps": [
+		[
+			20,
+			0
+		],
+		[
+			0,
+			1
+		]
+	],
+	"scale": 1
+}

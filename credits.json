@@ -1,0 +1,466 @@
+{
+ "credits" : [
+    {
+    "name" : "Indie Cross",
+    "role" : "Original Indie Cross Avaliable On GameJolt, Check It Out To Support The Team!",
+    "icon" : "credits/icons/big_icons/indieCross",
+    "urls" : [
+        {
+            "name" : "GameJolt",
+            "url" : "https://gamejolt.com/games/indiecross/643540"
+        }
+    ]
+    },
+    {
+        "name" : "Brightfyre",
+        "role" : "Leader | Director Of Indie Cross",
+        "icon" : "credits/icons/big_icons/Brightfyre",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/BuNZ_YT"
+            }
+        ]
+    },
+    {
+        "name" : "Moro",
+        "role" : "Animator | Nothing Is Permanent. Bad Times Will Pass Away. Just Keep Yourself Together",
+        "icon" : "credits/icons/big_icons/moro",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/moro_nighteye"
+            }
+        ]
+    },
+    {
+        "name" : "JZboy",
+        "role" : "Artist | I Want To Play Indie Cross",
+        "icon" : "credits/icons/big_icons/JzBoy",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/JzBoyAnims"
+            }
+        ]
+    },
+    {
+        "name" : "Iku Aldena",
+        "role" : "Artist | JTM Comme L7AM, Mias L7AM Pour Chwa, Et Toi Pour L7WA",
+        "icon" : "credits/icons/big_icons/Iku Aldena",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/Iku_Aldena"
+            }
+        ]
+    },
+    {
+        "name" : "Crae",
+        "role" : "Artist | HAHAHAHAHAHAHAHAHAHAHAAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHA LOL",
+        "icon" : "credits/icons/big_icons/Crae",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/channel/UCw56btKqHAJUYPYhjrDjuAw"
+            }
+        ]
+    },
+    {
+        "name" : "Diavololi",
+        "role" : "Artist | Scourge Of Mongolia",
+        "icon" : "credits/icons/big_icons/Diavololi",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/d1avololi"
+            }
+        ]
+    },
+    {
+        "name" : "SugarRatio",
+        "role" : "Artist | I Like Drawing And Animating Stickfigures",
+        "icon" : "credits/icons/big_icons/Sugarratio",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/SugarRatio"
+            }
+        ]
+    },
+    {
+        "name" : "Cally3D",
+        "role" : "Artist | I Made A Singular 3D Moddel Why Am I Here!?",
+        "icon" : "credits/icons/big_icons/Cally3D",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/Cally3D"
+            }
+        ]
+    },
+    {
+        "name" : "RiverOaken",
+        "role" : "Artist | Wait, I Worked On This",
+        "icon" : "credits/icons/big_icons/River",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/RiverOaken"
+            }
+        ]
+    },
+    {
+        "name" : "Nonsense",
+        "role" : "Artist | Did You Just Shot Me?",
+        "icon" : "credits/icons/big_icons/nonsense",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://www.youtube.com/c/NonsenseHumorLOL"
+            }
+        ]
+    },
+    {
+        "name" : "Sector",
+        "role" : "Developer | I Don't think Indie Cross Can Beat Goku :/",
+        "icon" : "credits/icons/big_icons/Sector",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/Sector0003"
+            }
+        ]
+    },
+    {
+        "name" : "ShadowFi",
+        "role" : "Developer | Mozo",
+        "icon" : "credits/icons/big_icons/Shadowfi",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/Shadowfi1385"
+            }
+        ]
+    },
+    {
+        "name" : "Squrra-Ring",
+        "role" : "Developer | Good At Programing. Bad At Everything Else.",
+        "icon" : "credits/icons/big_icons/Gedehari",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/gedehari"
+            }
+        ]
+    },
+    {
+        "name" : "Perez",
+        "role" : "Developer | El Pepe",
+        "icon" : "credits/icons/big_icons/Perez",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/c/sebaelperezoso/featured"
+            }
+        ]
+    },
+    {
+        "name" : "PolyProxy",
+        "role" : "Developer | made mp4 support, follow me on twitter!111",
+        "icon" : "credits/icons/big_icons/Proxy",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/polybiusproxy"
+            }
+        ]
+    },
+    {
+        "name" : "Smokey",
+        "role" : "Developer | Kenny's A Bitch",
+        "icon" : "credits/icons/big_icons/Smokey",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/Smokey_5_"
+            }
+        ]
+    },
+    {
+        "name" : "Hexar",
+        "role" : "Developer | BrightFyre Is A 5Head",
+        "icon" : "credits/icons/big_icons/Hexar",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/hexar__"
+            }
+        ]
+    },
+    {
+        "name" : "Ash",
+        "role" : "Developer | Ash",
+        "icon" : "credits/icons/big_icons/Ash",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/ash__i_guess_"
+            }
+        ]
+    },
+    {
+        "name" : "KadeDev",
+        "role" : "Developer | Pasc *Kissing Noises*",
+        "icon" : "credits/icons/big_icons/KadeDev",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/KadeDeveloper"
+            }
+        ]
+    },
+    {
+        "name" : "TaeYai",
+        "role" : "Developer | I Can Do Anything!",
+        "icon" : "credits/icons/big_icons/Taeyai",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/Taeyai_"
+            }
+        ]
+    },
+    {
+        "name" : "isophoro",
+        "role" : "Developer | Play Vs Isophoro",
+        "icon" : "credits/icons/big_icons/isophoro",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/isophoro"
+            }
+        ]
+    },
+    {
+        "name" : "Saster",
+        "role" : "Musician | Quality Content, As Uasual",
+        "icon" : "credits/icons/big_icons/Saster",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/channel/UCC4CkqOAwulRil3BEK9L3Mg"
+            }
+        ]
+    },
+    {
+        "name" : "Saru",
+        "role" : "Musician | Momazu zos saru",
+        "icon" : "credits/icons/big_icons/Saru",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/channel/UCKLD_M9TFSzgMTECZ6lcyrw"
+            }
+        ]
+    },
+    {
+        "name" : "Tenzu",
+        "role" : "Musician | Pico Pichula Weon Conchetumare Cucliao UwU",
+        "icon" : "credits/icons/big_icons/Tenzu",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/channel/UC7KmfbdAPt2bYCcSNJnCm-g"
+            }
+        ]
+    },
+    {
+        "name" : "TheInnuend0",
+        "role" : "Musician | H",
+        "icon" : "credits/icons/big_icons/TheInnuend0",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/channel/UCPM7_b1BzPxOerSEJmKxZCw"
+            }
+        ]
+    },
+    {
+        "name" : "Orenji",
+        "role" : "Musician | Top 10 Cheese",
+        "icon" : "credits/icons/big_icons/Orenji",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/channel/UCUrh__AJo0Y_pCwJYjB7shw"
+            }
+        ]
+    },
+    {
+        "name" : "Yingyang",
+        "role" : "Musician | Sans Undertale Is My Father",
+        "icon" : "credits/icons/big_icons/Yingyang",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/channel/UCnIjU-JNj3szZ1Q8tLCKjuw"
+            }
+        ]
+    },
+    {
+        "name" : "Rozebud",
+        "role" : "Musician | Download Bunker Bumrush",
+        "icon" : "credits/icons/big_icons/Rozebud",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/c/Rozebud/featured"
+            }
+        ]
+    },
+    {
+        "name" : "Joan Atlas",
+        "role" : "Musician | ETE SECH",
+        "icon" : "credits/icons/big_icons/Joan Atlas",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/channel/UCraIAPdHnnkJxfapv8oRv0w"
+            }
+        ]
+    },
+    {
+        "name" : "Mike Geno",
+        "role" : "Musician | I Make Music For Fun",
+        "icon" : "credits/icons/big_icons/Mike Geno",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/channel/UCyDQKOgEjuIiuPXctcuQKlg"
+            }
+        ]
+    },
+    {
+        "name" : "CDMusic",
+        "role" : "Musician | Hi Im Bri'ish And Make Music For A Bunch Of Stuff :P Also 375BPM",
+        "icon" : "credits/icons/big_icons/CDmusic",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/channel/UCOItBqiAAbWEdm21Mcv3g_Q"
+            }
+        ]
+    },
+    {
+        "name" : "DAGames",
+        "role" : "Musician | Wheres My Wife? Can Someone Find My Wife?",
+        "icon" : "credits/icons/big_icons/DAGames",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/channel/UCK7OXr0m5mnM1z9p7n_Bwfw"
+            }
+        ]
+    },
+    {
+        "name" : "CrystalSlime",
+        "role" : "Musician | you can wake up being yourself but you cant wake up being a different self than you originally were. so shoot for the moon between all of the stars because every day is a chance to start the day with a new day. thats the first step in the process of opening up your mind",
+        "icon" : "credits/icons/big_icons/CrystalSlime",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/channel/UCT_wYKD4twxoYOZt2ggXHlw"
+            }
+        ]
+    },
+    {
+        "name" : "BlvKarot",
+        "role" : "Musician | 50% Sea, 50% Weed, And 100% Reason To Remember The Name.",
+        "icon" : "credits/icons/big_icons/BLVKAROT",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/channel/UCPRT4ptgtoz-jPD_hqJ3mtg"
+            }
+        ]
+    },
+    {
+        "name" : "DJ",
+        "role" : "Charter | The Amount Of Dandruff In Your Hair Bro, If I Where To Smack Your Shit. It Would Be A Smoke Screen",
+        "icon" : "credits/icons/big_icons/DJ",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/AlchoholicDj"
+            }
+        ]
+    },
+    {
+        "name" : "Cerbera",
+        "role" : "Charter | NIGHTMARE NIGHTMARE NIGHTMARE NIGHTMARE NIGHTMARE NIGHTMARE NIGHTMARE",
+        "icon" : "credits/icons/big_icons/Cerbera",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/Cerbera_fnf"
+            }
+        ]
+    },
+    {
+        "name" : "Cval",
+        "role" : "Charter | What The? Im Jads?",
+        "icon" : "credits/icons/big_icons/Cval",
+        "urls" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/cval_brown"
+            }
+        ]
+    },
+    {
+        "name" : "BBPanzu",
+        "role" : "Musician | Know Your Worth.",
+        "icon" : "credits/icons/big_icons/Bbpanzu",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/c/bbpanzuRulesSoSubscribeplz123/featured"
+            }
+        ]
+    },
+    {
+        "name" : "BrandXN",
+        "role" : "Musician | You Can Call Me The Worst Producer",
+        "icon" : "credits/icons/big_icons/Brandxn",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/c/Brandxns/featured"
+            }
+        ]
+    },
+    {
+        "name" : "Kal",
+        "role" : "Charter | I Love Snas",
+        "icon" : "credits/icons/big_icons/Kal",
+        "urls" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://twitter.com/Kal_050"
+            }
+        ]
+    },
+    {
+        "name" : "People Who Helped Making This Port",
+        "role" : "ItsLJcool, Soliani, YoshiCrafter29, Raf, Xav, void :troll:, And The Rest Of YoshiCraferEngine Discord",
+        "icon" : "credits/YCEdiscord",
+        "urls" : [
+            {
+                "name" : "YCE Discord Server",
+                "url" : "https://discord.gg/engUJd9RTA"
+            }
+        ]
+    }
+    ]
+}
