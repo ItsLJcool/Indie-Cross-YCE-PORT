@@ -1,34 +1,35 @@
 [
 	{
-		"textSFX": "pixelText",
+		"pathDir": "shared",
 		"dialogueNames": [
 			"AAH loop",
 			"Normal open",
 			"AAH open",
 			"Normal loop"
 		],
-		"pathDir": "shared",
-		"musicLoop": true,
+		"textSFX": "pixelText",
 		"dialoguePNG": "speech_bubble_talking",
+		"musicLoop": true,
 		"hasMusic": true,
+		"dialogueLoop": "Normal loop",
 		"textFont": "Pixel Arial 11 Bold",
 		"dialogueIntro": "Normal open",
-		"dialogueLoop": "Normal loop",
 		"music": "settin",
-		"textColor": "Black",
-		"textSize": 32,
-		"textXY": [
-			50,
-			100
-		],
 		"dialogueLoopAnims": [
 			true,
 			false,
 			false,
 			true
-		]
+		],
+		"textXY": [
+			50,
+			100
+		],
+		"textSize": 32,
+		"textColor": "Black"
 	},
 	{
+		"changeDialoguePathDir": "images",
 		"changeDialogueNames": [
 			"Dialogue Ends",
 			"Normal open",
@@ -38,20 +39,19 @@
 			"no eyes",
 			"dying gay"
 		],
-		"changeDialoguePathDir": "images",
-		"playSFX": null,
-		"cutsceneCallCustomFunction": false,
 		"changeDialoguePNG": "sans/Sans_Text_box",
+		"cutsceneCallCustomFunction": false,
+		"playSFX": null,
 		"changeDialogueScale": [
 			0.75,
 			0.75
 		],
-		"stopMusic": false,
 		"onStart": "",
+		"stopMusic": false,
 		"changeDialogueIntro": "Normal open",
-		"playAnim": "singUP",
 		"onBeat": "",
-		"changeTextColor": "White",
+		"playAnim": "singUP",
+		"char": "filePath",
 		"changeDialogueLoopAnims": [
 			false,
 			false,
@@ -61,29 +61,29 @@
 			false,
 			false
 		],
-		"char": "filePath",
+		"changeTextColor": "White",
+		"resumeMusic": false,
+		"onComplete": "",
 		"changeTextSFX": "sans/snd_txtsans",
 		"onUpdate": "",
-		"onComplete": "",
-		"resumeMusic": false,
 		"customFunction": "",
 		"continueNext": null,
 		"onStep": "",
-		"changeTextFont": "realIndieFonts/Comic Sans [PIXEL]",
+		"continueDelay": null,
 		"changeDialogueOffsetXY": [
 			150,
 			500
 		],
-		"continueDelay": null,
+		"changeTextFont": "realIndieFonts/Comic Sans [PIXEL]",
+		"text": "Heya, it's me. Sans The Skeleton",
 		"dialoguePlayAnim": "Normal open",
-		"text": "Default Text",
-		"playCutscene": false,
-		"noText": null,
-		"changeTextSize": null,
 		"changeTextXY": [
 			200,
 			50
-		]
+		],
+		"changeTextSize": null,
+		"noText": null,
+		"playCutscene": false
 	},
 	{
 		"char": "filePath",

@@ -122,12 +122,14 @@ function onPlayerHit(note:Note) {
             indieCrocs.screenCenter();
             indieCrocs.updateHitbox();
         }       
+        camGame.angle = FlxG.random.float(0, 360);
+        camHUD.angle = FlxG.random.float(0, 360);
 }
 
 function update(elapsed:Float) {
     // if (imLazy == 9)
     indieCrocs.alpha = msScoreLabel.alpha;
     // indieCrocs.angle = indieCrocs.angle + 1;
-    camGame.angle = camGame.angle + 1;
-    camHUD.angle = camHUD.angle + 1;
+    // camGame.angle = camGame.angle + 1;
+    // camHUD.angle = camHUD.angle + 1;
 }

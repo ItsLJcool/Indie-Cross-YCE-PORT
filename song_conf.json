@@ -144,17 +144,6 @@
 		},
 		{
 			"scripts": [
-				"stages/sansBurningHell",
-				"otherHelpfulStuff/camMove",
-				"otherHelpfulStuff/healthbars/sansHP"
-			],
-			"difficulties": null,
-			"end_cutscene": null,
-			"cutscene": null,
-			"name": "Burning-In-Hell"
-		},
-		{
-			"scripts": [
 				"otherHelpfulStuff/camMove",
 				"stages/despairStage"
 			],
@@ -162,6 +151,17 @@
 			"end_cutscene": null,
 			"cutscene": null,
 			"name": "despair"
+		},
+		{
+			"end_cutscene": null,
+			"cutscene": "cutscenes/dialogue",
+			"difficulties": null,
+			"scripts": [
+				"stages/sansBurningHell",
+				"otherHelpfulStuff/camMove",
+				"otherHelpfulStuff/healthbars/sansHP"
+			],
+			"name": "Burning-In-Hell"
 		}
 	]
 }
