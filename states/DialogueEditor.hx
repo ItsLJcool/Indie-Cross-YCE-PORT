@@ -8,8 +8,8 @@ import lime.ui.FileDialogType;
 import lime.ui.FileDialog;
 import flixel.addons.text.FlxTypeText;
 import flixel.addons.ui.FlxInputText;
-import PlayState;
-import Characters;
+import Script;
+import ScriptPack; // you fucking cant just do 'Script.ScriptPack' you gotta import them one by one
 
 var rect:FlxSprite;
 var dialogueTemplate = [
@@ -42,14 +42,14 @@ var dialogueTemplate = [
         char: "filePath", // not done
         continueNext: null,
         continueDelay: null,
-        // VVV These might use .hx folders :troll:
+        // VVV These might use .hx files :troll:
         customFunction: "", // not done
         onStart: "", // not done
         onComplete: "", // not done
         onUpdate: "", // not done
         onBeat: "", // not done
         onStep: "", // not done
-        // ^^^ These might use .hx folders :troll:
+        // ^^^ These might use .hx files :troll:
         changeDialoguePNG: null,
         changeDialoguePathDir: null,
         changeDialogueNames: [null],
@@ -81,7 +81,29 @@ var swagDialogue:FlxTypeText;
 var inputText:FlxInputText;
 var dialogueImage:FlxSprite;
 var availableAnims:Array<String> = [];
+
+var scripts:ScriptPack;
 function create() {
+    scripts = new ScriptPack(["dialogueFolder/test"]);
+    scripts.setVariable("create", function() {
+    });
+    trace(scripts);
+    trace(script.scripts);
+    trace("\n");
+    trace(this);
+    for (s in scripts.scripts) {
+        trace(s);
+        s.setScriptObject(this);
+    }
+    trace(scripts);
+    trace(script.scripts);
+    trace("\n");
+    scripts.loadFiles();
+    trace(scripts);
+    trace(script.scripts);
+    trace("\n");
+    scripts.executeFunc("create");
+
     if (FlxG.sound.music != null)
         FlxG.sound.music.stop();
 
