@@ -1,0 +1,35 @@
+{
+	"dialogueStart": [
+		{
+			"daText": "Default Text: Dialogue 1"
+		}
+	],
+	"defaultStuff": {
+		"textSFX": "pixelText",
+		"imagePath": [
+			"speech_bubble_talking",
+			"shared"
+		],
+		"textSpeed": 0.04,
+		"openAnim": "Normal open",
+		"textFont": "Pixel Arial 11 Bold",
+		"loopAnim": "Normal loop",
+		"textXY": [
+			50,
+			100
+		],
+		"textColor": -16777216,
+		"loopAnims": [
+			true,
+			false,
+			false,
+			true
+		],
+		"animations": [
+			"AAH loop",
+			"Normal open",
+			"AAH open",
+			"Normal loop"
+		]
+	}
+}
