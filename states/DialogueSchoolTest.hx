@@ -23,6 +23,11 @@ var dialogueTemplate = {
         textSpeed: 0.04,
         openAnim: "Normal open",
         loopAnim: "Normal loop",
+        scripts: [
+            {
+                path: "dialogueFolder/test"
+            },
+        ],
         // add more later
     },
     dialogueStart: [
@@ -40,11 +45,16 @@ var saveFile = "mods/" + mod + "/dialogueFolder";
 var dialogueImage:FlxSprite;
 var swagDialogue:FlxTypeText;
 var inputText:FlxInputText;
+
+var scripts:ScriptPack;
 function create() {
 	if (!FileSystem.exists(saveFile + "/dialogueSchoolTest.json"))
 		File.saveContent(saveFile + "/dialogueSchoolTest.json", Json.stringify(dialogueTemplate, null, "\t"));
 
 	dialogue = Json.parse(File.getContent(saveFile + "/dialogueSchoolTest.json"));
+
+    scripts = new ScriptPack(dialogue.scripts);
+    for (s in scripts.scripts) s.setScriptObject(this);
 
 	rect = new FlxSprite(0, 0);
 	rect.scrollFactor.set();
@@ -100,8 +110,8 @@ function nextDialogue(hur:Int = 0)  {
 
     swagDialogue.resetText(dialogue.dialogueStart[curDialogue].daText);
     swagDialogue.updateHitbox();
-    swagDialogue.x = (checkNull(dialogue.defaultStuff.textXY[0]) ? dialogueImage.x : dialogue.defaultStuff.textXY[0]);
-    swagDialogue.y = (checkNull(dialogue.defaultStuff.textXY[1]) ? dialogueImage.y : dialogue.defaultStuff.textXY[1]);
+    swagDialogue.x = (checkNull(dialogue.defaultStuff.textXY[0]) ? dialogueImage.x : dialogueImage.x + dialogue.defaultStuff.textXY[0]);
+    swagDialogue.y = (checkNull(dialogue.defaultStuff.textXY[1]) ? dialogueImage.y : dialogueImage.y + dialogue.defaultStuff.textXY[1]);
     swagDialogue.start((checkNull(dialogue.defaultStuff.textSpeed) ? 0.04 : dialogue.defaultStuff.textSpeed), true);
 }
 
