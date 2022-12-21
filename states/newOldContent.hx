@@ -62,7 +62,7 @@ function create() {
     if (preloadImages) {
     for (i in 0...funny.length) {
         if (!funny[i].xml) {
-            var newImageSprite:FlxSprite = new FlxSprite().loadGraphic(Paths.image("old/images/" + funny[i].file));
+            var newImageSprite:FlxSprite = new FlxSprite().loadGraphic(Paths.image('old/images/' + funny[i].file));
             newImageSprite.scale.set(funny[i].scale, funny[i].scale);
             newImageSprite.updateHitbox();
             newImageSprite.screenCenter();
@@ -121,6 +121,7 @@ function changeGallery(jesse:Int = 0) {
         if (preloadImages) {
             for (spr in preloadedSprites) {
                 for (spr in preloadedSprites) {
+                    spr.animation.finishCallback = function() { }
                 if (spr.ID == curSelected) {
                     spr.alpha = 1;
                     checkAnimFrames(spr);
@@ -131,6 +132,7 @@ function changeGallery(jesse:Int = 0) {
             }
         }
         } else {
+        xmlImage.animation.finishCallback = function() { }
         changeXmlImage(xmlImage, funny[curSelected].file, funny[curSelected].names, funny[curSelected].loopAnim);
         xmlImage.scale.set(funny[curSelected].scale, funny[curSelected].scale);
         xmlImage.updateHitbox();
@@ -139,12 +141,12 @@ function changeGallery(jesse:Int = 0) {
         anImage.alpha = 0.0001;
         }
     } else {
-        if (preloadedSprites) {
+        if (preloadImages) {
             for (spr in preloadedSprites) {
                 if (spr.ID == curSelected) {
-                    preloadedSprites[curSelected].alpha = 1;
+                    spr.alpha = 1;
                 } else {
-                    preloadedSprites[curSelected].alpha = 0.0001;
+                    spr.alpha = 0.0001;
                 }
             }
         } else {
@@ -166,6 +168,20 @@ function changeGallery(jesse:Int = 0) {
     textDesc.updateHitbox();
     textDesc.screenCenter();
     textDesc.y = FlxG.height - textTitle.height - textDesc.height - 20;
+
+    if (funny[curSelected].loopThing != null && funny[curSelected].loopThing) {
+        if (preloadImages) {
+            for (spr in preloadedSprites) {
+                if (spr.ID == curSelected)
+                    spr.animation.finishCallback = function() {
+                        spr.animation.play((funny[curSelected].names == null) ? 0 : funny[curSelected].names[0]);
+                    }
+            }
+        } else
+            xmlImage.animation.finishCallback = function() {
+                xmlImage.animation.play((funny[curSelected].names == null) ? 0 : funny[curSelected].names[0]);
+            }
+    }
 }
 
 
@@ -174,10 +190,28 @@ function changeSpecial() {
 
     if (funny[curSelected].pausable != null && funny[curSelected].pausable) {
         if (preloadImages) {
-            for (spr in preloadedSprites)
-                (spr.animation.paused) ? spr.animation.resume() : spr.animation.pause();
+            for (spr in preloadedSprites) {
+                if (spr.ID == curSelected)
+                    (spr.animation.paused) ? spr.animation.resume() : spr.animation.pause();
+            }
         } else
             (xmlImage.animation.paused) ? xmlImage.animation.resume() : xmlImage.animation.pause();
+        return;
+    }
+
+    if (funny[curSelected].loopThing != null && funny[curSelected].loopThing) {
+        if (preloadImages) {
+            for (spr in preloadedSprites) {
+                if (spr.ID == curSelected)
+                    spr.animation.finishCallback = function() {
+                        spr.animation.play((funny[curSelected].names == null) ? 0 : funny[curSelected].names[0]);
+                    }
+            }
+        } else
+            xmlImage.animation.finishCallback = function() {
+                xmlImage.animation.play((funny[curSelected].names == null) ? 0 : funny[curSelected].names[0]);
+            }
+        return;
     }
 
     trackSpecial++;
@@ -267,23 +301,35 @@ function doThePush() {
     title: "Old Sans Dialogue Box", 
     desc: "It was all seperated so it looks wierd here"});
     
-    funny.push({file: "gaster2", xml: true, type: "sans", names: null, loopAnim: null, scale: 0.5,
-    title: "First idea of Gaster Blasters", 
-    desc: "Fwoosh"});
+    // funny.push({file: "gaster2", xml: true, type: "sans", names: null, loopAnim: null, scale: 0.5,
+    // title: "First idea of Gaster Blasters", 
+    // desc: "Fwoosh"});
     
-    funny.push({file: "chara easter egg", xml: false, type: "sans", names: null, loopAnim: null, scale: 0.5,
+    funny.push({file: "chara easter egg", xml: false, type: "sans", names: null, loopAnim: null, scale: 1.5,
     title: "Scrapped Achievements", 
     desc: "They could be in IC 2.0 though"});
     
-    funny.push({file: "man behind the slaughter", xml: false, type: "sans", names: null, loopAnim: null, scale: 0.5,
+    funny.push({file: "man behind the slaughter", xml: false, type: "sans", names: null, loopAnim: null, scale: 1.5,
     title: "Scrapped Achievements", 
     desc: "They could be in IC 2.0 though"});
     
-    funny.push({file: "eye", xml: false, type: "sans", names: null, loopAnim: null, scale: 0.5,
+    funny.push({file: "eye", xml: false, type: "sans", names: null, loopAnim: null, scale: 1.5,
     title: "Scrapped Achievements", 
     desc: "They could be in IC 2.0 though"});
     
-    // funny.push({file: "LEGSS", xml: true, type: "bendy", names: null, loopAnim: null, scale: 0.5,
-    // title: "Old idea of running BF", 
-    // desc: "instead of running through XML frames", pausable: true}); // shut
+    funny.push({file: "LEGSS", xml: true, type: "bendy", names: null, loopAnim: null, scale: 1,
+    title: "Old idea of running BF", 
+    desc: "instead of running through XML frames", pausable: true}); // shut
+    
+    // funny.push({file: "Jump", xml: true, type: "bendy", names: null, loopAnim: null, scale: 0.5,
+    // title: "Peek-a-boo", 
+    // desc: "Old Jumpscare animation", loopThing: true}); // laptop isn't powerful enough
+    
+    funny.push({file: "REEEEEE", xml: true, type: "bendy", names: null, loopAnim: null, scale: 0/5,
+    title: "Old NM Run BF Anims", 
+    desc: "They where changed to probably fit Bendy's 11 anim limit"});
+    
+    funny.push({file: "Sammy", xml: true, type: "bendy", names: null, loopAnim: null, scale: 1,
+    title: "Honestly idk", 
+    desc: "Looks the same to me"});
 }
