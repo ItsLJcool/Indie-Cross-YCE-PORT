@@ -108,9 +108,9 @@ function update(elapsed) {
             changeItem(1); }
     
     if (controlsJust.O)
-        FlxG.switchState(new ModState('daOldContentLol', mod));
+        FlxG.switchState(new ModState('newOldContent', mod));
     if (controlsJust.G)
-        FlxG.switchState(new ModState('DialogueEditor', mod));
+        FlxG.switchState(new ModState('DialogueSchoolTest', mod));
 
     var pressed = false;
     if (char == 0) pressed = controlsJust.G;

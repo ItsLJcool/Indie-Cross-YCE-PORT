@@ -149,6 +149,7 @@ function textShit(beat:Int) {
         state.remove(videoSprite);
         FlxG.sound.volume = beforeVol;
 		CoolUtil.playMenuMusic(true);
+        skipIntro();
     },false);
     state.add(videoSprite);
     videoSprite.scrollFactor.set();
