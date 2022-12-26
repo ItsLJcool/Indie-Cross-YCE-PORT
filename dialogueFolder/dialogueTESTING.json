@@ -1,5 +1,8 @@
 [
 	{
+		"scriptsDialogue": [
+			"dialogueFolder/test"
+		],
 		"pathDir": "shared",
 		"dialogueNames": [
 			"AAH loop",

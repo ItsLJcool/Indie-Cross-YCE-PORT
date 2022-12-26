@@ -1,5 +1,8 @@
 [
 	{
+		"scriptsDialogue": [
+			"dialogueFolder/test"
+		],
 		"pathDir": "shared",
 		"dialogueNames": [
 			"AAH loop",
@@ -75,7 +78,7 @@
 			500
 		],
 		"changeTextFont": "realIndieFonts/Comic Sans [PIXEL]",
-		"text": "Heya, it's me. Sans The Skeleton",
+		"text": "NEW saves Yes",
 		"dialoguePlayAnim": "Normal open",
 		"changeTextXY": [
 			200,
@@ -87,6 +90,6 @@
 	},
 	{
 		"char": "filePath",
-		"text": "Guh??"
+		"text": "Indie Crocs"
 	}
 ]

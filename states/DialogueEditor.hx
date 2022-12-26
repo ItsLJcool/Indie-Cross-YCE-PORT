@@ -29,7 +29,8 @@ var dialogueTemplate = [
         textSize: 32,
         textColor: "Black",
         textSFX: "pixelText",
-        canViewMultipleTimes: false
+        canViewMultipleTimes: false,
+        scriptsDialogue: ['dialogueFolder/test'] // bruh
     },
 	{
         text: "Default Text",
@@ -43,12 +44,12 @@ var dialogueTemplate = [
         continueNext: null,
         continueDelay: null,
         // VVV These might use .hx files :troll:
-        customFunction: "", // not done
-        onStart: "", // not done
-        onComplete: "", // not done
-        onUpdate: "", // not done
-        onBeat: "", // not done
-        onStep: "", // not done
+        // customFunction: "", // not done
+        // onStart: "", // not done
+        // onComplete: "", // not done
+        // onUpdate: "", // not done
+        // onBeat: "", // not done
+        // onStep: "", // not done
         // ^^^ These might use .hx files :troll:
         changeDialoguePNG: null,
         changeDialoguePathDir: null,
@@ -65,7 +66,7 @@ var dialogueTemplate = [
         playSFX: "soundPath", // the enter button ig
         stopMusic: false,
         resumeMusic: false,
-        changeMusic: "musicPath"
+        changeMusic: "musicPath",
     },
     {
         text: "Guh?????",
@@ -82,35 +83,35 @@ var inputText:FlxInputText;
 var dialogueImage:FlxSprite;
 var availableAnims:Array<String> = [];
 
-var scripts:ScriptPack;
+var dialogueScripts:ScriptPack;
+
 function create() {
-    scripts = new ScriptPack(["dialogueFolder/test"]);
-    scripts.setVariable("create", function() {
-    });
-    trace(scripts);
-    trace(script.scripts);
-    trace("\n");
-    trace(this);
-    for (s in scripts.scripts) {
-        trace(s);
-        s.setScriptObject(this);
+    if (!FileSystem.exists(saveFile + "/dialogue.json"))
+        File.saveContent(saveFile + "/dialogue.json", Json.stringify(dialogueTemplate, null, "\t"));
+    
+    textShit = Json.parse(File.getContent(saveFile + "/dialogue.json"));
+    var bruh:Array<Dynamic> = [];
+    trace(textShit[0].scriptsDialogue);
+    if (textShit[0].scriptsDialogue != null) {
+        for (script in textShit[0].scriptsDialogue) {
+            bruh.push({path: mod + "/" + script});
+            trace(bruh);
+        }
     }
-    trace(scripts);
-    trace(script.scripts);
-    trace("\n");
-    scripts.loadFiles();
-    trace(scripts);
-    trace(script.scripts);
-    trace("\n");
-    scripts.executeFunc("create");
+    dialogueScripts = new ScriptPack(bruh);
+    trace(bruh);
+    dialogueScripts.setVariable("update", function(elapsed:Float) {
+    });
+    dialogueScripts.setVariable("create", function() {
+    });
+    trace(dialogueScripts.scripts);
+    for (s in dialogueScripts.scripts) s.setScriptObject(this);
+    dialogueScripts.loadFiles();
 
     if (FlxG.sound.music != null)
         FlxG.sound.music.stop();
 
-	if (!FileSystem.exists(saveFile + "/dialogue.json"))
-		File.saveContent(saveFile + "/dialogue.json", Json.stringify(dialogueTemplate, null, "\t"));
-
-	textShit = Json.parse(File.getContent(saveFile + "/dialogue.json"));
+    dialogueScripts.executeFunc("create");
     // trace("textShit: " + textShit);
 
 	rect = new FlxSprite(0, 0);
@@ -154,6 +155,8 @@ function create() {
     };
 
     nextDialogue(0);
+    dialogueScripts.setVariable("dialogue", curDialogue);
+    dialogueScripts.setVariable("curDialogue", curDialogue);
 }
 
 function openDialoguePaths(type:String = 'open') {
@@ -179,6 +182,7 @@ function openDialoguePaths(type:String = 'open') {
 }
 
 function update(elapsed:Float) {
+    dialogueScripts.executeFunc("update", [elapsed]);
 
     if (inputText.hasFocus)
         inputText.updateHitbox();
@@ -197,10 +201,13 @@ function update(elapsed:Float) {
 
     if (FlxG.keys.justPressed.V && !inputText.hasFocus)
         openDialoguePaths("OPEN");
+    
+    dialogueScripts.executeFunc("updatePost", [elapsed]);
 }
 
 var curDialogue:Int = 1;
 function nextDialogue(hur:Int = 0) {
+    if (curDialogue != 0 || hur != 0) dialogueScripts.executeFunc("dialogueChange");
     curDialogue += hur;
     if (curDialogue > textShit.length - 1)
         curDialogue = textShit.length - 1;
@@ -305,6 +312,7 @@ function nextDialogue(hur:Int = 0) {
 }
 
 function startText() {
+    dialogueScripts.executeFunc("textStarts");
     if (!textShit[curDialogue].noText) {
     if (textShit[curDialogue].changeTextFont != null)
         swagDialogue.font = Paths.font(textShit[curDialogue].changeTextFont);
@@ -334,9 +342,12 @@ function startText() {
         FlxG.sound.play(Paths.sound(textShit[curDialogue].playSFX), 1);
 
     swagDialogue.start(0.04, true);
+    dialogueScripts.executeFunc("textStartsPost");
     swagDialogue.completeCallback = function() {
+        dialogueScripts.executeFunc("textComplete");
         if (textShit[curDialogue].continueNext && textShit[curDialogue].continueNext != null) {
             new FlxTimer().start((textShit[curDialogue].continueDelay != null) ? textShit[curDialogue].continueDelay : 0, function(tmr:FlxTimer) {
+                dialogueScripts.executeFunc("textCompletePost");
                 nextDialogue(1);
                 });
             }
@@ -345,6 +356,7 @@ function startText() {
 }
 
 function changeDialogueImage(path:String, ?pathDIR:String, names:Array<String>, looping:Array<Bool>) {
+    dialogueScripts.executeFunc("dialogueImageChange");
     dialogueImage.frames = Paths.getSparrowAtlas(path, (pathDIR != null) ? pathDIR : "images");
     availableAnims = [];
     var numbers = ["0","1","2","3","4","5","6","7","8","9"];
@@ -362,4 +374,5 @@ function changeDialogueImage(path:String, ?pathDIR:String, names:Array<String>, 
         dialogueImage.animation.addByPrefix(names[i], availableAnims[i], 24, looping[i]);
     }
     dialogueImage.updateHitbox();
+    dialogueScripts.executeFunc("dialogueImageChangePost");
 }

@@ -1,6 +1,7 @@
 // code haha
 import("flixel.util.FlxCollision");
 import('flixel.text.FlxTextBorderStyle');
+import ModSupport;
 var sansBoneAtt = false;
 // im dumb so here is ass code
 var playOnceInUpdate = false; // oh no what would this do??

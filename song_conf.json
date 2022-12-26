@@ -153,14 +153,14 @@
 			"name": "despair"
 		},
 		{
-			"end_cutscene": null,
-			"cutscene": "cutscenes/dialogue",
-			"difficulties": null,
 			"scripts": [
 				"stages/sansBurningHell",
 				"otherHelpfulStuff/camMove",
 				"otherHelpfulStuff/healthbars/sansHP"
 			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": "cutscenes/dialogue",
 			"name": "Burning-In-Hell"
 		}
 	]

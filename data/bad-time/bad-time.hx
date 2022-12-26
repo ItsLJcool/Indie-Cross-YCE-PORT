@@ -30,9 +30,7 @@ function create() {
     PlayState.remove(PlayState.boyfriend);
     PlayState.remove(PlayState.gf);
     // PlayState.gf.y = 9999;
-    PlayState.gf.visible = false;
-
-    EngineSettings.botplay = true;    
+    PlayState.gf.visible = false;  
     
     sansStageLol = new FlxSprite(-740, -172);
     sansStageLol.frames = Paths.getSparrowAtlas('sans/Nightmare Sans Stage');
