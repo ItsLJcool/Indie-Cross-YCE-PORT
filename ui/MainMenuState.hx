@@ -111,6 +111,8 @@ function update(elapsed) {
         FlxG.switchState(new ModState('newOldContent', mod));
     if (controlsJust.G)
         FlxG.switchState(new ModState('DialogueSchoolTest', mod));
+    if (controlsJust.C)
+        FlxG.switchState(new ModState('sandbox', mod));
 
     var pressed = false;
     if (char == 0) pressed = controlsJust.G;

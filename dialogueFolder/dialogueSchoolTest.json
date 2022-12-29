@@ -1,11 +1,40 @@
 {
 	"dialogueStart": [
 		{
-			"daText": "Default Text: Dialogue 1"
+			"boxImage": {
+				"loopAnims": null,
+				"animations": null,
+				"path": null,
+				"changeImage": false
+			},
+			"boxPlayAnim": "Normal loop",
+			"textSFX": "pixelText",
+			"boxFlipX": false,
+			"textSpeed": 0.04,
+			"daText": "Default Text: Dialogue 1",
+			"boxXY": null,
+			"textFont": "Pixel Arial 11 Bold",
+			"bgImage": {
+				"defaultBG": true,
+				"opacity": null,
+				"path": null,
+				"enabled": false
+			},
+			"textColor": -16777216,
+			"textSize": 16,
+			"textXY": null,
+			"overrideDefaults": false,
+			"boxScale": 0.75
 		}
 	],
 	"defaultStuff": {
+		"scripts": [
+			{
+				"path": "dialogueFolder/test"
+			}
+		],
 		"textSFX": "pixelText",
+		"boxFlipX": false,
 		"imagePath": [
 			"speech_bubble_talking",
 			"shared"
@@ -13,23 +42,26 @@
 		"textSpeed": 0.04,
 		"openAnim": "Normal open",
 		"textFont": "Pixel Arial 11 Bold",
+		"boxXY": null,
 		"loopAnim": "Normal loop",
-		"textXY": [
-			50,
-			100
-		],
-		"textColor": -16777216,
 		"loopAnims": [
 			true,
 			false,
 			false,
 			true
 		],
+		"textXY": [
+			50,
+			100
+		],
+		"textColor": -16777216,
+		"textSize": 16,
 		"animations": [
 			"AAH loop",
 			"Normal open",
 			"AAH open",
 			"Normal loop"
-		]
+		],
+		"boxScale": 0.75
 	}
 }

@@ -160,7 +160,7 @@
 			],
 			"difficulties": null,
 			"end_cutscene": null,
-			"cutscene": "cutscenes/dialogue",
+			"cutscene": null,
 			"name": "Burning-In-Hell"
 		}
 	]
