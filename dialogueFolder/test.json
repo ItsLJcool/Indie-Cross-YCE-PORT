@@ -1,0 +1,275 @@
+{
+	"dialogueStart": [
+		{
+			"boxFlipX": false,
+			"boxPlayAnim": null,
+			"boxImage": {
+				"loopAnims": null,
+				"changeImage": false,
+				"path": null,
+				"animations": null
+			},
+			"playSFX": null,
+			"bgImage": {
+				"defaultBG": true,
+				"enabled": false,
+				"path": null,
+				"opacity": null
+			},
+			"textColor": -16777216,
+			"textSFX": "pixelText",
+			"daText": "Hello! Welcome Back To LJ's Dialogue Editor",
+			"textSpeed": 0.04,
+			"boxXY": null,
+			"textFont": "Pixel Arial 11 Bold",
+			"endAnim": null,
+			"textSize": 16,
+			"overrideDefaults": false,
+			"textXY": null,
+			"boxScale": 0.75,
+			"musicStuff": {
+				"musicEnabled": false,
+				"resumeMusic": false,
+				"volume": 0.8,
+				"pauseMusic": false,
+				"audioPath": null
+			}
+		},
+		{
+			"boxImage": {
+				"loopAnims": null,
+				"animations": null,
+				"path": null,
+				"changeImage": false
+			},
+			"boxFlipX": false,
+			"boxPlayAnim": null,
+			"textSFX": "pixelText",
+			"textSpeed": 0.04,
+			"daText": "Today I'll be showcasing the newest features, and even showing it off in Indie Cross!",
+			"textFont": "Pixel Arial 11 Bold",
+			"overrideDefaults": false,
+			"textColor": -16777216,
+			"textSize": 16,
+			"musicStuff": {
+				"resumeMusic": false,
+				"musicEnabled": false,
+				"volume": 0.8,
+				"audioPath": null,
+				"pauseMusic": false
+			},
+			"boxScale": 0.75
+		},
+		{
+			"textSFX": "pixelText",
+			"boxPlayAnim": null,
+			"boxFlipX": false,
+			"boxImage": {
+				"loopAnims": null,
+				"changeImage": false,
+				"path": null,
+				"animations": null
+			},
+			"daText": "First The Default Stuff, you can change the Font, SFX, and Default Music! You can also test out the SFX to make sure its the right one",
+			"textSpeed": 0.04,
+			"textFont": "Pixel Arial 11 Bold",
+			"textSize": 16,
+			"textColor": -16777216,
+			"overrideDefaults": false,
+			"boxScale": 0.75,
+			"musicStuff": {
+				"musicEnabled": false,
+				"resumeMusic": false,
+				"volume": 0.8,
+				"pauseMusic": false,
+				"audioPath": null
+			}
+		},
+		{
+			"textSFX": "pixelText",
+			"boxPlayAnim": "blast",
+			"boxFlipX": false,
+			"boxImage": {
+				"loopAnims": [
+					true,
+					true
+				],
+				"changeImage": false,
+				"path": [
+					"cuphead/NMcupheadAttacks",
+					null
+				],
+				"animations": [
+					"blast",
+					"round"
+				]
+			},
+			"daText": "There is a lot more that I haven't coded yet, but this UI will get Hevily modified after beta Release.",
+			"textSpeed": 0.04,
+			"textFont": "Pixel Arial 11 Bold",
+			"textSize": 16,
+			"textColor": -16777216,
+			"overrideDefaults": false,
+			"boxScale": 0.75,
+			"musicStuff": {
+				"musicEnabled": false,
+				"resumeMusic": false,
+				"volume": 0.8,
+				"pauseMusic": false,
+				"audioPath": null
+			}
+		},
+		{
+			"textSFX": "delete",
+			"boxPlayAnim": "Normal loop",
+			"boxFlipX": false,
+			"boxImage": {
+				"loopAnims": null,
+				"changeImage": false,
+				"path": null,
+				"animations": null
+			},
+			"playSFX": "achievement",
+			"daText": "Next Is Specific Dialogues. You can play a SFX, set Text SFX, and font, basically Default Settings but changable for specific dialogues.",
+			"textSpeed": 0.04,
+			"textFont": "realIndieFonts/DK Black Bamboo",
+			"textSize": 26,
+			"textColor": -16777216,
+			"overrideDefaults": true,
+			"boxScale": 0.75,
+			"musicStuff": {
+				"musicEnabled": false,
+				"resumeMusic": false,
+				"volume": 0.8,
+				"pauseMusic": false,
+				"audioPath": null
+			}
+		},
+		{
+			"textSFX": "sounddown",
+			"boxPlayAnim": "Normal loop",
+			"boxFlipX": false,
+			"boxImage": {
+				"loopAnims": null,
+				"changeImage": false,
+				"path": null,
+				"animations": null
+			},
+			"playSFX": "sans/ping",
+			"daText": "Box Animaions Got An Update, You can now Set 'End Animations'. This will be the animation that will play when the dialogue is ending. This is only on the Default 'Change Box Image'.",
+			"textSpeed": 0.04,
+			"textFont": "Pixel Arial 11 Bold",
+			"textSize": 16,
+			"textColor": -16777216,
+			"overrideDefaults": false,
+			"boxScale": 0.75,
+			"musicStuff": {
+				"musicEnabled": false,
+				"resumeMusic": false,
+				"volume": 0.8,
+				"pauseMusic": false,
+				"audioPath": null
+			}
+		},
+		{
+			"textSFX": "delete",
+			"boxPlayAnim": "blast",
+			"boxFlipX": false,
+			"boxImage": {
+				"loopAnims": [
+					true,
+					true
+				],
+				"changeImage": true,
+				"path": [
+					"cuphead/NMcupheadAttacks",
+					null
+				],
+				"animations": [
+					"blast",
+					"round"
+				]
+			},
+			"playSFX": "cuphead/dodge",
+			"daText": "Thats Basically it for now. Also if you didn't see or hear of the massive UI change, then in short, every Major Item here will have its own \"Section\" of editable Property that will be accesable in a SubState. or smth like that",
+			"textSpeed": 0.04,
+			"textFont": "Pixel Arial 11 Bold",
+			"textSize": 16,
+			"textColor": -12053687,
+			"overrideDefaults": true,
+			"textXY": [
+				23,
+				175
+			],
+			"boxScale": 0.75,
+			"musicStuff": {
+				"musicEnabled": false,
+				"resumeMusic": false,
+				"volume": 0.8,
+				"pauseMusic": false,
+				"audioPath": null
+			}
+		},
+		{
+			"boxImage": {
+				"loopAnims": null,
+				"animations": null,
+				"path": null,
+				"changeImage": false
+			},
+			"boxFlipX": false,
+			"boxPlayAnim": null,
+			"textSFX": "pixelText",
+			"textSpeed": 0.04,
+			"daText": "Now lets go see Indie Cross Dialogue! (Burning In Hell Is Not Finished for dialogue, haven't done the scripting yet)",
+			"textFont": "Pixel Arial 11 Bold",
+			"overrideDefaults": false,
+			"textColor": -16777216,
+			"textSize": 16,
+			"musicStuff": {
+				"resumeMusic": false,
+				"musicEnabled": false,
+				"volume": 0.8,
+				"audioPath": null,
+				"pauseMusic": false
+			},
+			"boxScale": 0.75
+		}
+	],
+	"defaultStuff": {
+		"imagePath": [
+			"speech_bubble_talking",
+			"shared"
+		],
+		"boxFlipX": false,
+		"loopAnim": "Normal loop",
+		"textColor": -16777216,
+		"textSFX": "type",
+		"scripts": null,
+		"textSpeed": 0.04,
+		"openAnim": "Normal open",
+		"boxXY": null,
+		"textFont": "Pixel Arial 11 Bold",
+		"endAnim": null,
+		"textSize": 16,
+		"textXY": null,
+		"loopAnims": [
+			true,
+			false,
+			false,
+			true
+		],
+		"musicStuff": {
+			"musicEnabled": true,
+			"volume": 0.8,
+			"audioPath": "settin"
+		},
+		"boxScale": 0.75,
+		"animations": [
+			"AAH loop",
+			"Normal open",
+			"AAH open",
+			"Normal loop"
+		]
+	}
+}

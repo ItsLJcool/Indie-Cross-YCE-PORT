@@ -8,7 +8,7 @@
 			],
 			"difficulties": null,
 			"end_cutscene": null,
-			"cutscene": null,
+			"cutscene": "cutscenes/dialogue",
 			"name": "nightmare-run"
 		},
 		{
@@ -19,7 +19,7 @@
 			],
 			"difficulties": null,
 			"end_cutscene": null,
-			"cutscene": null,
+			"cutscene": "cutscenes/dialogue",
 			"name": "last-reel"
 		},
 		{
@@ -29,7 +29,7 @@
 			],
 			"difficulties": null,
 			"end_cutscene": null,
-			"cutscene": null,
+			"cutscene": "cutscenes/dialogue",
 			"name": "terrible-sin"
 		},
 		{
@@ -40,7 +40,7 @@
 			],
 			"difficulties": null,
 			"end_cutscene": null,
-			"cutscene": null,
+			"cutscene": "cutscenes/dialogue",
 			"name": "imminent-demise"
 		},
 		{
@@ -51,7 +51,7 @@
 			],
 			"difficulties": null,
 			"end_cutscene": null,
-			"cutscene": null,
+			"cutscene": "cutscenes/dialogue",
 			"name": "devils-gambit"
 		},
 		{
@@ -62,7 +62,7 @@
 			],
 			"difficulties": null,
 			"end_cutscene": null,
-			"cutscene": null,
+			"cutscene": "cutscenes/dialogue",
 			"name": "technicolor-tussle"
 		},
 		{
@@ -73,7 +73,7 @@
 			],
 			"difficulties": null,
 			"end_cutscene": null,
-			"cutscene": null,
+			"cutscene": "cutscenes/dialogue",
 			"name": "snake-eyes"
 		},
 		{
@@ -84,7 +84,7 @@
 			],
 			"difficulties": null,
 			"end_cutscene": null,
-			"cutscene": null,
+			"cutscene": "cutscenes/dialogue",
 			"name": "knockout"
 		},
 		{
@@ -95,18 +95,7 @@
 			],
 			"difficulties": null,
 			"end_cutscene": null,
-			"cutscene": null,
-			"name": "whoopee"
-		},
-		{
-			"scripts": [
-				"stages/sansStageIC",
-				"otherHelpfulStuff/camMove",
-				"otherHelpfulStuff/healthbars/sansHP"
-			],
-			"difficulties": null,
-			"end_cutscene": null,
-			"cutscene": null,
+			"cutscene": "cutscenes/dialogue",
 			"name": "final-stretch"
 		},
 		{
@@ -117,7 +106,7 @@
 			],
 			"difficulties": null,
 			"end_cutscene": null,
-			"cutscene": null,
+			"cutscene": "cutscenes/dialogue",
 			"name": "bad-time"
 		},
 		{
@@ -128,7 +117,7 @@
 			],
 			"difficulties": null,
 			"end_cutscene": null,
-			"cutscene": null,
+			"cutscene": "cutscenes/dialogue",
 			"name": "sansational"
 		},
 		{
@@ -139,7 +128,7 @@
 			],
 			"difficulties": null,
 			"end_cutscene": null,
-			"cutscene": null,
+			"cutscene": "cutscenes/dialogue",
 			"name": "bonedoggle"
 		},
 		{
@@ -149,7 +138,7 @@
 			],
 			"difficulties": null,
 			"end_cutscene": null,
-			"cutscene": null,
+			"cutscene": "cutscenes/dialogue",
 			"name": "despair"
 		},
 		{
@@ -160,8 +149,19 @@
 			],
 			"difficulties": null,
 			"end_cutscene": null,
-			"cutscene": null,
+			"cutscene": "cutscenes/dialogue",
 			"name": "Burning-In-Hell"
+		},
+		{
+			"scripts": [
+				"stages/sansStageIC",
+				"otherHelpfulStuff/camMove",
+				"otherHelpfulStuff/healthbars/sansHP"
+			],
+			"difficulties": null,
+			"end_cutscene": null,
+			"cutscene": "cutscenes/dialogue",
+			"name": "whoopee"
 		}
 	]
 }

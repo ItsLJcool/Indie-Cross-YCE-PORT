@@ -40,16 +40,6 @@ function create() {
 }
 
 function createPost() {
-    for(m in PlayState.members) {
-    if (Std.isOfType(m, FlxSprite)) {
-        m.antialiasing = true;
-        if (Std.isOfType(m, FlxText)) {
-            // lol it's actually a built in flixel font
-            m.font = Paths.font("sansFont"); // YOSHI DOSN'T NEED THE .tff EXTENSION YES
-            m.setBorderStyle(FlxTextBorderStyle.OUTLINE, 0xFF000000);
-            }
-        }  
-    }
 // You know who else has dementia?
 }
 
@@ -141,6 +131,16 @@ function onCountdown(val:Int) {
 //    FlxG.sound.play(Paths.sound('sans/countdown finished'));
     switch(val) {
         case 3:
+            for(m in PlayState.members) {
+            if (Std.isOfType(m, FlxSprite)) {
+                m.antialiasing = true;
+                if (Std.isOfType(m, FlxText)) {
+                    // lol it's actually a built in flixel font
+                    m.font = Paths.font("sansFont"); // YOSHI DOSN'T NEED THE .tff EXTENSION YES
+                    m.setBorderStyle(FlxTextBorderStyle.OUTLINE, 0xFF000000);
+                    }
+                }  
+            }
             FlxG.sound.play(Paths.sound('sans/countdown'));
             //sprite.animation.play("3");
         case 2:

@@ -1,0 +1,240 @@
+{
+	"dialogueStart": [
+		{
+			"boxImage": {
+				"loopAnims": null,
+				"animations": null,
+				"path": null,
+				"changeImage": false
+			},
+			"boxPlayAnim": null,
+			"boxFlipX": false,
+			"playSFX": "",
+			"bgImage": {
+				"defaultBG": true,
+				"opacity": null,
+				"path": null,
+				"enabled": false
+			},
+			"textColor": -16777216,
+			"textSFX": "sans/snd_txtsans",
+			"daText": "you see, i cant judge the book by its cover but...",
+			"textSpeed": 0.04,
+			"boxXY": null,
+			"textFont": "Pixel Arial 11 Bold",
+			"endAnim": null,
+			"textSize": 16,
+			"overrideDefaults": false,
+			"textXY": null,
+			"musicStuff": {
+				"resumeMusic": false,
+				"musicEnabled": false,
+				"volume": 0.8,
+				"audioPath": null,
+				"pauseMusic": false
+			},
+			"boxScale": 0.75
+		},
+		{
+			"textSFX": "sans/snd_txtsans",
+			"boxPlayAnim": "gay",
+			"boxFlipX": false,
+			"boxImage": {
+				"loopAnims": null,
+				"changeImage": false,
+				"path": null,
+				"animations": null
+			},
+			"playSFX": "",
+			"daText": "i know what happened with you and that cup guy.",
+			"textSpeed": 0.04,
+			"textFont": "realIndieFonts/Comic Sans [PIXEL]",
+			"textSize": 38,
+			"textColor": -1,
+			"overrideDefaults": true,
+			"textXY": [
+				363,
+				518
+			],
+			"boxScale": 1,
+			"musicStuff": {
+				"musicEnabled": false,
+				"resumeMusic": false,
+				"volume": 0.8,
+				"pauseMusic": false,
+				"audioPath": null
+			}
+		},
+		{
+			"textSFX": "sans/snd_txtsans",
+			"boxPlayAnim": "eyes closed",
+			"boxFlipX": false,
+			"boxImage": {
+				"loopAnims": null,
+				"changeImage": false,
+				"path": null,
+				"animations": null
+			},
+			"playSFX": "",
+			"daText": "i'd say if you try to do the same with me...",
+			"textSpeed": 0.04,
+			"textFont": "realIndieFonts/Comic Sans [PIXEL]",
+			"textSize": 38,
+			"textColor": -1,
+			"overrideDefaults": true,
+			"textXY": [
+				363,
+				518
+			],
+			"boxScale": 1,
+			"musicStuff": {
+				"musicEnabled": false,
+				"resumeMusic": false,
+				"volume": 0.8,
+				"pauseMusic": false,
+				"audioPath": null
+			}
+		},
+		{
+			"textSFX": "sans/snd_txtsans",
+			"boxPlayAnim": "funny",
+			"boxFlipX": false,
+			"boxImage": {
+				"loopAnims": null,
+				"changeImage": false,
+				"path": null,
+				"animations": null
+			},
+			"playSFX": "",
+			"daText": "things wont turn out so well.",
+			"textSpeed": 0.04,
+			"textFont": "realIndieFonts/Comic Sans [PIXEL]",
+			"textSize": 38,
+			"textColor": -1,
+			"overrideDefaults": true,
+			"textXY": [
+				363,
+				518
+			],
+			"boxScale": 1,
+			"musicStuff": {
+				"musicEnabled": false,
+				"resumeMusic": false,
+				"volume": 0.8,
+				"pauseMusic": false,
+				"audioPath": null
+			}
+		},
+		{
+			"textSFX": "sans/snd_txtsans",
+			"boxPlayAnim": "no eyes",
+			"boxFlipX": false,
+			"boxImage": {
+				"loopAnims": null,
+				"changeImage": false,
+				"path": null,
+				"animations": null
+			},
+			"playSFX": "",
+			"daText": "up to you kid....",
+			"textSpeed": 0.04,
+			"textFont": "Pixel Arial 11 Bold",
+			"textSize": 16,
+			"textColor": -1,
+			"overrideDefaults": false,
+			"textXY": [
+				363,
+				518
+			],
+			"boxScale": 1,
+			"musicStuff": {
+				"musicEnabled": false,
+				"resumeMusic": false,
+				"volume": 0.8,
+				"pauseMusic": false,
+				"audioPath": null
+			}
+		},
+		{
+			"textSFX": "sans/snd_txtsans",
+			"boxPlayAnim": "no eyes",
+			"boxFlipX": false,
+			"boxImage": {
+				"loopAnims": null,
+				"changeImage": false,
+				"path": null,
+				"animations": null
+			},
+			"playSFX": "",
+			"daText": "No Pressure.",
+			"textSpeed": 0.04,
+			"textFont": "realIndieFonts/Comic Sans [PIXEL]",
+			"textSize": 38,
+			"textColor": -1,
+			"overrideDefaults": true,
+			"textXY": [
+				363,
+				518
+			],
+			"boxScale": 1,
+			"musicStuff": {
+				"musicEnabled": false,
+				"resumeMusic": false,
+				"volume": 0.8,
+				"pauseMusic": false,
+				"audioPath": null
+			}
+		}
+	],
+	"defaultStuff": {
+		"boxFlipX": false,
+		"imagePath": [
+			"sans/Sans_Text_box",
+			null
+		],
+		"loopAnim": "start",
+		"textColor": -1,
+		"textSFX": "sans/snd_txtsans",
+		"scripts": [
+			{
+				"path": "Indie Cross/cutscenes/sansDialogueScript"
+			}
+		],
+		"textSpeed": 0.04,
+		"openAnim": null,
+		"boxXY": null,
+		"textFont": "realIndieFonts/Comic Sans [PIXEL]",
+		"endAnim": "end",
+		"textSize": 38,
+		"textXY": [
+			363,
+			518
+		],
+		"loopAnims": [
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false
+		],
+		"animations": [
+			"end",
+			"start",
+			"wink",
+			"eyes closed",
+			"funny",
+			"no eyes",
+			"gay"
+		],
+		"musicStuff": {
+			"volume": 0.8,
+			"musicEnabled": true,
+			"audioPath": ""
+		},
+		"boxScale": 1
+	}
+}

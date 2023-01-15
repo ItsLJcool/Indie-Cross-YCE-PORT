@@ -1,7 +1,17 @@
 //a
+var sprTest:FlxSprite;
 function create() {
-    trace("Executed Test Func");
+    trace("Function create Ran");
 }
-function dialogueChange() {
-    trace('Dialogued switched!!!');
+function createPost() {
+    trace("Function createPost Ran");
 }
+function nextDialogue() {
+    trace("Function nextDialogue Ran");
+}
+// function update() {
+//     trace("Function update Ran");
+// }
+// function updatePost() {
+//     trace("Function updatePost Ran");
+// }

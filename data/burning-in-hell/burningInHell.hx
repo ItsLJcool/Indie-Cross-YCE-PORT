@@ -42,11 +42,6 @@ function createPost() {
 // You know who else has dementia?
 }
 function create() {
-    forceCutscenes = true;
-    if (save.data.hasSeenDialogue == null) {
-        save.data.hasSeenDialogue = false;
-        save.flush();
-    }
 
     if (EngineSettings.botplay) {
         Window.alert("youre a pussy \n from Yoshiman29", "psych lua");
