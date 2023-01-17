@@ -1,0 +1,296 @@
+{
+	"dialogueStart": [
+		{
+			"boxImage": {
+				"loopAnims": null,
+				"animations": null,
+				"path": null,
+				"changeImage": false
+			},
+			"boxPlayAnim": null,
+			"boxFlipX": false,
+			"playSFX": "",
+			"bgImage": {
+				"defaultBG": true,
+				"opacity": null,
+				"path": null,
+				"enabled": false
+			},
+			"textColor": -16777216,
+			"textSFX": "sans/snd_txtsans",
+			"daText": "hmm",
+			"textSpeed": 0.04,
+			"boxXY": null,
+			"textFont": "Pixel Arial 11 Bold",
+			"endAnim": null,
+			"textSize": 16,
+			"overrideDefaults": false,
+			"textXY": null,
+			"musicStuff": {
+				"resumeMusic": false,
+				"musicEnabled": false,
+				"volume": 0.8,
+				"audioPath": null,
+				"pauseMusic": false
+			},
+			"boxScale": 0.75
+		},
+		{
+			"textSFX": "sans/snd_txtsans",
+			"boxPlayAnim": "wink",
+			"boxFlipX": false,
+			"boxImage": {
+				"loopAnims": null,
+				"changeImage": false,
+				"path": null,
+				"animations": null
+			},
+			"playSFX": "",
+			"daText": "that expression...",
+			"textSpeed": 0.04,
+			"textFont": "realIndieFonts/Comic Sans [PIXEL]",
+			"textSize": 38,
+			"textColor": -1,
+			"overrideDefaults": false,
+			"textXY": [
+				363,
+				518
+			],
+			"boxScale": 1,
+			"musicStuff": {
+				"musicEnabled": false,
+				"resumeMusic": false,
+				"volume": 0.8,
+				"pauseMusic": false,
+				"audioPath": null
+			}
+		},
+		{
+			"textSFX": "sans/snd_txtsans",
+			"boxPlayAnim": "gay",
+			"boxFlipX": false,
+			"boxImage": {
+				"loopAnims": null,
+				"changeImage": false,
+				"path": null,
+				"animations": null
+			},
+			"playSFX": "",
+			"daText": "that's the expression of someone who's died eleven times in a row.",
+			"textSpeed": 0.04,
+			"textFont": "realIndieFonts/Comic Sans [PIXEL]",
+			"textSize": 38,
+			"textColor": -1,
+			"overrideDefaults": true,
+			"textXY": [
+				363,
+				518
+			],
+			"boxScale": 1,
+			"musicStuff": {
+				"musicEnabled": false,
+				"resumeMusic": false,
+				"volume": 0.8,
+				"pauseMusic": false,
+				"audioPath": null
+			}
+		},
+		{
+			"textSFX": "sans/snd_txtsans",
+			"boxPlayAnim": "wink",
+			"boxFlipX": false,
+			"boxImage": {
+				"loopAnims": null,
+				"changeImage": false,
+				"path": null,
+				"animations": null
+			},
+			"daText": "well, give or take.",
+			"textSpeed": 0.04,
+			"textFont": "realIndieFonts/Comic Sans [PIXEL]",
+			"textSize": 38,
+			"textColor": -1,
+			"overrideDefaults": true,
+			"textXY": [
+				363,
+				518
+			],
+			"boxScale": 1,
+			"musicStuff": {
+				"musicEnabled": false,
+				"resumeMusic": false,
+				"volume": 0.8,
+				"pauseMusic": false,
+				"audioPath": null
+			}
+		},
+		{
+			"textSFX": "sans/snd_txtsans",
+			"boxPlayAnim": "gay",
+			"boxFlipX": false,
+			"boxImage": {
+				"loopAnims": null,
+				"changeImage": false,
+				"path": null,
+				"animations": null
+			},
+			"daText": "there's nuance to this stuff.",
+			"textSpeed": 0.04,
+			"textFont": "realIndieFonts/Comic Sans [PIXEL]",
+			"textSize": 36,
+			"textColor": -1,
+			"overrideDefaults": true,
+			"textXY": [
+				363,
+				518
+			],
+			"boxScale": 1,
+			"musicStuff": {
+				"musicEnabled": false,
+				"resumeMusic": false,
+				"volume": 0.8,
+				"pauseMusic": false,
+				"audioPath": null
+			}
+		},
+		{
+			"boxImage": {
+				"loopAnims": null,
+				"animations": null,
+				"path": null,
+				"changeImage": false
+			},
+			"boxFlipX": false,
+			"boxPlayAnim": "wink",
+			"textSFX": "sans/snd_txtsans",
+			"textSpeed": 0.04,
+			"daText": "don't think i'll be able to count from here.",
+			"textFont": "realIndieFonts/Comic Sans [PIXEL]",
+			"textXY": [
+				363,
+				518
+			],
+			"overrideDefaults": true,
+			"textColor": -1,
+			"textSize": 38,
+			"musicStuff": {
+				"resumeMusic": false,
+				"musicEnabled": false,
+				"volume": 0.8,
+				"audioPath": null,
+				"pauseMusic": false
+			},
+			"boxScale": 1
+		},
+		{
+			"boxImage": {
+				"loopAnims": null,
+				"animations": null,
+				"path": null,
+				"changeImage": false
+			},
+			"boxFlipX": false,
+			"boxPlayAnim": "gay",
+			"textSFX": "sans/snd_txtsans",
+			"textSpeed": 0.04,
+			"daText": "count for me, ok?",
+			"textFont": "realIndieFonts/Comic Sans [PIXEL]",
+			"textXY": [
+				363,
+				518
+			],
+			"overrideDefaults": true,
+			"textColor": -1,
+			"textSize": 38,
+			"musicStuff": {
+				"resumeMusic": false,
+				"musicEnabled": false,
+				"volume": 0.8,
+				"audioPath": null,
+				"pauseMusic": false
+			},
+			"boxScale": 1
+		},
+		{
+			"boxImage": {
+				"loopAnims": null,
+				"animations": null,
+				"path": null,
+				"changeImage": false
+			},
+			"boxFlipX": false,
+			"boxPlayAnim": "no eyes",
+			"textSFX": "sans/snd_txtsans",
+			"playSFX": "sans/eye",
+			"textSpeed": 0.04,
+			"daText": "we'll start from 12",
+			"textFont": "realIndieFonts/Comic Sans [PIXEL]",
+			"textXY": [
+				363,
+				518
+			],
+			"overrideDefaults": true,
+			"textColor": -1,
+			"textSize": 38,
+			"musicStuff": {
+				"resumeMusic": false,
+				"musicEnabled": false,
+				"volume": 0.8,
+				"audioPath": null,
+				"pauseMusic": false
+			},
+			"boxScale": 1
+		}
+	],
+	"defaultStuff": {
+		"boxFlipX": false,
+		"imagePath": [
+			"sans/Sans_Text_box",
+			null
+		],
+		"loopAnim": "start",
+		"textColor": -1,
+		"textSFX": "sans/snd_txtsans",
+		"scripts": [
+			{
+				"path": "Indie Cross/cutscenes/sansDialogueScript"
+			}
+		],
+		"textSpeed": 0.04,
+		"openAnim": null,
+		"boxXY": null,
+		"textFont": "realIndieFonts/Comic Sans [PIXEL]",
+		"endAnim": "end",
+		"textSize": 38,
+		"textXY": [
+			363,
+			518
+		],
+		"loopAnims": [
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false
+		],
+		"boxScale": 1,
+		"animations": [
+			"end",
+			"start",
+			"wink",
+			"eyes closed",
+			"funny",
+			"no eyes",
+			"gay"
+		],
+		"musicStuff": {
+			"volume": 0.8,
+			"musicEnabled": true,
+			"audioPath": ""
+		}
+	}
+}

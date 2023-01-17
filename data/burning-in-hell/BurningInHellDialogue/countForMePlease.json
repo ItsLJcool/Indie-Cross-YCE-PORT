@@ -1,0 +1,93 @@
+{
+	"dialogueStart": [
+		{
+			"boxImage": {
+				"loopAnims": null,
+				"animations": null,
+				"path": null,
+				"changeImage": false
+			},
+			"boxPlayAnim": "no eyes",
+			"boxFlipX": false,
+			"playSFX": "",
+			"bgImage": {
+				"defaultBG": true,
+				"opacity": null,
+				"path": null,
+				"enabled": false
+			},
+			"textColor": -131587,
+			"textSFX": "sans/snd_txtsans",
+			"daText": "let's just get to the point.",
+			"textSpeed": 0.04,
+			"boxXY": null,
+			"textFont": "realIndieFonts/Comic Sans [PIXEL]",
+			"endAnim": null,
+			"textSize": 38,
+			"overrideDefaults": true,
+			"textXY": [
+				363,
+				518
+			],
+			"musicStuff": {
+				"resumeMusic": false,
+				"musicEnabled": false,
+				"volume": 0.8,
+				"audioPath": null,
+				"pauseMusic": false
+			},
+			"boxScale": 1
+		}
+	],
+	"defaultStuff": {
+		"boxFlipX": false,
+		"imagePath": [
+			"sans/Sans_Text_box",
+			null
+		],
+		"loopAnim": "start",
+		"textColor": -1,
+		"textSFX": "sans/snd_txtsans",
+		"scripts": [
+			{
+				"path": "Indie Cross/cutscenes/sansDialogueScript"
+			}
+		],
+		"textSpeed": 0.04,
+		"openAnim": null,
+		"boxXY": null,
+		"textFont": "realIndieFonts/Comic Sans [PIXEL]",
+		"endAnim": "end",
+		"textSize": 38,
+		"textXY": [
+			363,
+			518
+		],
+		"loopAnims": [
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false
+		],
+		"boxScale": 1,
+		"animations": [
+			"end",
+			"start",
+			"wink",
+			"eyes closed",
+			"funny",
+			"no eyes",
+			"gay"
+		],
+		"musicStuff": {
+			"volume": 0.8,
+			"musicEnabled": true,
+			"audioPath": ""
+		}
+	}
+}

@@ -27,20 +27,6 @@ var bfGoDown = false;
 var allowHeartMovement = false;
 var checkTimer:Float = 0;
 var checkTimer2:Float = 0;
-// mechanics stuff
-function createPost() {
-    for(m in PlayState.members) {
-    if (Std.isOfType(m, FlxSprite)) {
-        m.antialiasing = true;
-        if (Std.isOfType(m, FlxText)) {
-            // lol it's actually a built in flixel font
-            m.font = Paths.font("sansFont"); // YOSHI DOSN'T NEED THE .tff EXTENSION YES
-            m.setBorderStyle(FlxTextBorderStyle.OUTLINE, 0xFF000000);
-            }
-        }  
-    }
-// You know who else has dementia?
-}
 function create() {
 
     if (EngineSettings.botplay) {
@@ -437,6 +423,16 @@ function onCountdown(val:Int) {
 //    FlxG.sound.play(Paths.sound('sans/countdown finished'));
     switch(val) {
         case 3:
+            for(m in PlayState.members) {
+                if (Std.isOfType(m, FlxSprite)) {
+                    m.antialiasing = true;
+                    if (Std.isOfType(m, FlxText)) {
+                        // lol it's actually a built in flixel font
+                        m.font = Paths.font("sansFont"); // YOSHI DOSN'T NEED THE .tff EXTENSION YES
+                        m.setBorderStyle(FlxTextBorderStyle.OUTLINE, 0xFF000000);
+                        }
+                    }  
+                }
             var rngSFXattack = FlxG.random.int(1,3);
             FlxG.sound.play(Paths.sound('sans/Throw' + rngSFXattack));
             PlayState.boyfriend.playAnim('attack');

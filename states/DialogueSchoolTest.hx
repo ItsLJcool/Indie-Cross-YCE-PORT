@@ -98,7 +98,6 @@ var rect:FlxSprite;
 
 var dialogue:Dynamic;
 var saveFile = "mods/" + mod + "/dialogueFolder";
-
 var dialogueImage:FlxSprite;
 var swagDialogue:FlxTypeText;
 var inputText:FlxInputText;
@@ -807,6 +806,7 @@ function updateScripts() {
     dialogueScripts.setVariable("swagDialogue", swagDialogue);
     dialogueScripts.setVariable("dad", dad);
     dialogueScripts.setVariable("boyfriend", boyfriend);
+    dialogueScripts.setVariable("dialogue", dialogue);
     
     for (s in dialogueScripts.scripts) s.setScriptObject(this);
     dialogueScripts.loadFiles();
@@ -1012,6 +1012,7 @@ function nextDialogue(hur:Int = 0)  {
     playDialogueSFX.text = dialogue.dialogueStart[curDialogue].playSFX;
     defaultTextFont.text = dialogue.defaultStuff.textFont;
     changeTextFont.text = dialogue.dialogueStart[curDialogue].textFont;
+    defaultMusic.text = dialogue.defaultStuff.musicStuff.audioPath;
 
     changeTextSFX.visible = dialogue.dialogueStart[curDialogue].overrideDefaults;
     labelTextSFX.visible = dialogue.dialogueStart[curDialogue].overrideDefaults;
@@ -1193,9 +1194,7 @@ function nextDialogue(hur:Int = 0)  {
     defaultTextScale.value = dialogue.defaultStuff.textSize;
     changeTextScale.value = dialogue.dialogueStart[curDialogue].textSize;
 
-    trace(swagDialogue.width);
     swagDialogue.width = dialogueImage.width - 25;
-    trace(swagDialogue.width);
 
     if (dialogue.defaultStuff.textSpeed != null && dialogue.dialogueStart[curDialogue].textSpeed == null)
         swagDialogue.start(dialogue.defaultStuff.textSpeed, true);

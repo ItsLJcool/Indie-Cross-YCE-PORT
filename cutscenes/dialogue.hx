@@ -16,6 +16,7 @@ import flixel.FlxCamera;
 var dialogueImage:FlxSprite;
 var swagDialogue:FlxTypeText;
 var dialogue:Dynamic;
+var dialogueScripts:ScriptPack;
 var pathToJson = "mods/" + mod + "/data/" + PlayState.song.song.toLowerCase() + "/dialogue.json";
 
 var dialogueHUD:FlxCamera;
@@ -30,12 +31,6 @@ function create() {
     }
     if (FileSystem.exists(pathToJson)) {
 	    dialogue = Json.parse(File.getContent(pathToJson));
-        dialogueScripts = new ScriptPack((dialogue.defaultStuff.scripts == null) ? [{paths: ''}] : dialogue.defaultStuff.scripts);
-        for (s in dialogueScripts.scripts) s.setScriptObject(this);
-        dialogueScripts.loadFiles();
-        dialogueScripts.setVariable("dialogueImage", dialogueImage);
-        dialogueScripts.setVariable("curDialogue", curDialogue);
-        dialogueScripts.setVariable("swagDialogue", swagDialogue);
     } else {
         trace("doesn't exist, start song");
         startCountdown();
@@ -69,8 +64,27 @@ function create() {
         if (curDialogue <= dialogue.dialogueStart.length - 1)
             canContinue = true;
     }
-
+    updateScripts();
+    dialogueScripts.executeFunc("create");
     nextDialogue(0);
+}
+
+function updateScripts() {
+    dialogueScripts = new ScriptPack((dialogue.defaultStuff.scripts == null) ? [{paths: ''}] : dialogue.defaultStuff.scripts);
+    dialogueScripts.setVariable("state", this);
+    dialogueScripts.setVariable("PlayState", PlayState);
+    dialogueScripts.setVariable("dialogueImage", dialogueImage);
+    dialogueScripts.setVariable("curDialogue", curDialogue);
+    dialogueScripts.setVariable("swagDialogue", swagDialogue);
+    dialogueScripts.setVariable("dad", PlayState.dad);
+    dialogueScripts.setVariable("boyfriend", PlayState.boyfriend);
+    dialogueScripts.setVariable("setDialogueTo", function(json) {
+	    dialogue = Json.parse(File.getContent(json));
+    });
+    dialogueScripts.setVariable("dialogue", dialogue);
+    
+    for (s in dialogueScripts.scripts) s.setScriptObject(this);
+    dialogueScripts.loadFiles();
 }
 
 var canContinue:Bool = true;
@@ -87,6 +101,7 @@ function update() {
 var curDialogue:Int = 0;
 var audioBefore = [];
 function nextDialogue(hur:Int = 0)  {
+    dialogueScripts.executeFunc("nextDialogue");
     if (curDialogue != 0) canContinue = false;
     curDialogue += hur;
     if (curDialogue > dialogue.dialogueStart.length - 1) {
@@ -273,6 +288,8 @@ function nextDialogue(hur:Int = 0)  {
     else
         swagDialogue.size = 16;
     
+    swagDialogue.width = dialogueImage.width - 25;
+    
     if (dialogue.defaultStuff.textSpeed != null && dialogue.dialogueStart[curDialogue].textSpeed == null)
         swagDialogue.start(dialogue.defaultStuff.textSpeed, true);
     else if (dialogue.dialogueStart[curDialogue].textSpeed != null)
@@ -283,7 +300,7 @@ function nextDialogue(hur:Int = 0)  {
 }
 
 function changeDialogueImage(path:String, ?pathDIR:String, names:Array<String>, looping:Array<Bool>) { // changes the Dialgoue Box image, causes a sec of lag tho
-    dialogueScripts.executeFunc("dialogueChangedImages");
+    if (dialogueScripts != null) dialogueScripts.executeFunc("dialogueChangedImages");
     dialogueImage.frames = Paths.getSparrowAtlas(path, (pathDIR != null) ? pathDIR : "images");
     availableAnims = [];
     var numbers = ["0","1","2","3","4","5","6","7","8","9"];
@@ -301,5 +318,5 @@ function changeDialogueImage(path:String, ?pathDIR:String, names:Array<String>, 
         dialogueImage.animation.addByPrefix(names[i], availableAnims[i], 24, looping[i]);
     }
     dialogueImage.updateHitbox();
-    dialogueScripts.executeFunc("dialogueChangedImagesPost");
+    if (dialogueScripts != null)dialogueScripts.executeFunc("dialogueChangedImagesPost");
 }
