@@ -4,14 +4,10 @@ var introName:FlxSprite;
 var healthTweenObj:FlxTween;
 
 function create() {
-    
 	healthTweenObj = FlxTween.tween(this, {}, 0);
 
     EngineSettings.botplay = true;
     PlayState.isWidescreen = false;
-}
-
-function createPost() {
 }
 
 function createInFront() {
@@ -83,13 +79,12 @@ function onCountdown(val:Int) {
 }
 
 function onDadHit(note:Note) {
-    if (healthBar.percent > 19.95 && !note.isSustainNote) healthTween(-0.05);
+    if (healthBar.percent > 19.95 && !note.isSustainNote) healthTween(-0.03);
 }
 
 function healthTween(amt:Float) {
     healthTweenObj.cancel();
-    healthTweenObj = FlxTween.num(health, health + amt, 0.1, {ease: FlxEase.cubeInOut}, function(v:Float)
-    {
+    healthTweenObj = FlxTween.num(health, health + amt, 0.1, {ease: FlxEase.cubeInOut}, function(v:Float) {
         health = v;
     });
 }

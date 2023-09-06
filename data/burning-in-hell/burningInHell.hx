@@ -388,17 +388,17 @@ function update(elapsed:Float) {
     }
 
     if (allowHeartMovement) {
-        if (FlxG.keys.pressed.W /*|| PlayState.controls.UP_P*/) {
-            heartRED.y -= 3;
+        if (FlxG.keys.pressed.W || PlayState.controls.UP) {
+            heartRED.y -= 3*160*elapsed;
         }
-        if (FlxG.keys.pressed.A /*|| PlayState.controls.LEFT_P*/) {
-            heartRED.x -= 3;
+        if (FlxG.keys.pressed.A || PlayState.controls.LEFT) {
+            heartRED.x -= 3*160*elapsed;
         }
-        if (FlxG.keys.pressed.S /*|| PlayState.controls.DOWN_P*/) {
-            heartRED.y += 3;
+        if (FlxG.keys.pressed.S || PlayState.controls.DOWN) {
+            heartRED.y += 3*160*elapsed;
         }
-        if (FlxG.keys.pressed.D /*|| PlayState.controls.RIGHT_P*/) {
-            heartRED.x += 3;
+        if (FlxG.keys.pressed.D || PlayState.controls.RIGHT) {
+            heartRED.x += 3*160*elapsed;
         }
     }
 

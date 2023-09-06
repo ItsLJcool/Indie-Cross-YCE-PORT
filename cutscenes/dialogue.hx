@@ -86,7 +86,6 @@ function updateScripts() {
     for (s in dialogueScripts.scripts) s.setScriptObject(this);
     dialogueScripts.loadFiles();
 }
-
 var canContinue:Bool = true;
 function update() {
     dialogueScripts.executeFunc("update");
@@ -95,7 +94,6 @@ function update() {
         if (canContinue) nextDialogue(1);
     }
     dialogueScripts.executeFunc("updatePost");
-
 }
 
 var curDialogue:Int = 0;

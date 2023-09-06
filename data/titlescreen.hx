@@ -1,6 +1,7 @@
 //a
 import ("LoadingState");
 import ("lime.app.Application"); // testing cool shit
+import Script;
 // import ("openfl.display.BlendMode");
 
 var bfLOL:FlxSprite;
@@ -13,6 +14,18 @@ var overlay:FlxSprite;
 var playButton:FlxSprite;
 var playName:FlxSprite;
 var indieCrocks:FlxSprite;
+
+function createPost() {
+	var transition:Script;
+    trace(Script.create(Paths.modsPath+"/"+mod+"/global_scripts/die"));
+    trace(Paths.modsPath+"/"+mod+"/global_scripts/die");
+    transition = Script.create(Paths.modsPath+"/"+mod+"/global_scripts/die");
+    transition.setVariable("create", function(){});
+    transition.setVariable("FlxG", FlxG);
+    transition.setScriptObject(this);
+    transition.loadFile();
+    transition.executeFunc("create");
+}
 
 function create() {
     Conductor.changeBPM(117); // L Config File

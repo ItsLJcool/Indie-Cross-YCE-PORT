@@ -26,7 +26,7 @@ var controlsNUM = FlxControls.anyPressed;
 
 function create() {
 
-    EngineSettings.botplay = true;
+    // EngineSettings.botplay = true;
 
     PlayState.remove(PlayState.dad);
     PlayState.remove(PlayState.boyfriend);

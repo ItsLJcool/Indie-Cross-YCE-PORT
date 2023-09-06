@@ -23,51 +23,182 @@ function create() {
 	PlayState.remove(PlayState.gf);
 
     // EngineSettings.botplay = true;
-    PlayState.isWidescreen = false;
-    //-17010  -898  sc: 3
-    bg = new FlxSprite(-23105, -1476); //-17010, -898
-    bg.frames = Paths.getSparrowAtlas('bendy/run/Fuck_the_hallway');
-    bg.animation.addByPrefix('Loop1', 'Loop01 instance 1', 72, false);
-    bg.animation.addByPrefix('Loop2', 'Loop02 instance 1', 72, false);
-    bg.animation.addByPrefix('Loop3', 'Loop03 instance 1', 72, false);
-    bg.animation.addByPrefix('Loop4', 'Loop04 instance 1', 72, false);
-    bg.animation.addByPrefix('Loop5', 'Loop05 instance 1', 72, false);
-    bg.animation.addByPrefix('Tunnel', 'Tunnel instance 1', 72, false);
-    bg.animation.play('Loop1');
-	bg.setGraphicSize(Std.int(bg.width * 3));
-	bg.updateHitbox();
-	bg.screenCenter();
-	bg.scrollFactor.set(0.8, 0.8);
-	// bg.x -= 100;
-	bg.y -= 50;
-	bg.antialiasing = EngineSettings.antialiasing;
-	bg.graphic.persist = true;
-	bg.graphic.destroyOnNoUse = false;
-	bg.alpha = 1;
-    PlayState.add(bg);
-    PlayState.remove(PlayState.dad);
-    PlayState.remove(PlayState.boyfriend);
-    PlayState.remove(PlayState.gf);
-    // PlayState.gf.y = 9999;
-    PlayState.gf.visible = false;
+    PlayState.isWidescreen = false;bgs = [];
+	// Might take a bit longer to load but hey, no black boxes yay
+	// also initializing them as characters right away to prevent a weird small freezing when the frame change happens
+	// flixel sucks ass
 
-	stairsBG = new FlxBackdrop(Paths.image('bendy/stairs/scrollingBG'), 0, 1, false, true);
+	for (i in 0...5) {
+		var bg:FlxSprite = new FlxSprite();
+		var imgName:String = '';
+		var animName:String = '';
+		switch (i) {
+			case 0:
+				imgName = 'Fuck_the_hallway';
+				animName = 'Loop01 instance 1';
+			case 1:
+				imgName = 'Fuck_the_hallway';
+				animName = 'Loop02 instance 1';
+			case 2:
+				imgName = 'Fuck_the_hallway';
+				animName = 'Loop03 instance 1';
+			case 3:
+				imgName = 'Fuck_the_hallway';
+				animName = 'Loop04 instance 1';
+			case 4:
+				imgName = 'Fuck_the_hallway';
+				animName = 'Loop05 instance 1';
+		}
+
+		bg.frames = Paths.getSparrowAtlas('run/' + imgName, 'bendy');
+		bg.animation.addByPrefix('bruh', animName, 75, false);
+		bg.setGraphicSize(Std.int(bg.width * 3));
+		bg.updateHitbox();
+		bg.screenCenter();
+		bg.scrollFactor.set(0.8, 0.8);
+		// bg.x -= 100;
+		bg.y -= 50;
+		bg.antialiasing = EngineSettings.antialiasing;
+		bg.graphic.persist = true;
+		bg.graphic.destroyOnNoUse = false;
+		bg.alpha = 0.0001;
+		add(bg);
+
+		bgs.push(bg);
+	}
+
+	randomPick = FlxG.random.int(0, bgs.length - 1);
+	oldRando = randomPick;
+
+	darkHallway = new FlxSprite();
+	darkHallway.frames = Paths.getSparrowAtlas('run/Fuck_the_hallway', 'bendy');
+	darkHallway.animation.addByPrefix('bruh', 'Tunnel instance 1', 75, false);
+	darkHallway.setGraphicSize(Std.int(darkHallway.width * infiniteResize));
+	darkHallway.updateHitbox();
+	darkHallway.screenCenter();
+	darkHallway.x -= 200;
+	darkHallway.scrollFactor.set(0.8, 0.8);
+	darkHallway.antialiasing = FlxG.save.data.highquality;
+	darkHallway.alpha = 0.0001;
+	add(darkHallway);
+
+	bgs[randomPick].alpha = 1;
+	bgs[randomPick].animation.play('bruh', true);
+
+	darkHallway.animation.play('bruh', true);
+    PlayState.add(bg);
+    PlayState.gf.visible = false;
+	
+	transition = new FlxSprite();
+	transition.frames = Paths.getSparrowAtlas('dark/Trans', 'bendy');
+	transition.animation.addByPrefix('bruh', 'beb instance 1', 24, false);
+	transition.setGraphicSize(Std.int(transition.width * infiniteResize));
+	transition.updateHitbox();
+	transition.screenCenter();
+	transition.scrollFactor.set(0.8, 0.8);
+	transition.antialiasing = FlxG.save.data.highquality;
+	transition.alpha = 0.0001;
+	transition.animation.play('bruh', true);
+	transition.cameras = [camHUD];
+
+	/*lights = new FlxSprite();
+		lights.frames = Paths.getSparrowAtlas('dark/Lights', 'bendy');
+		lights.animation.addByPrefix('bruh', 'RunLol Hallway instance 1', 24, false);
+		lights.setGraphicSize(Std.int(lights.width * infiniteResize));
+		lights.updateHitbox();
+		lights.screenCenter();
+		lights.scrollFactor.set(0.8, 0.8);
+		lights.antialiasing = FlxG.save.data.highquality;
+		lights.alpha = 0.0001;
+		lights.animation.play('bruh', true);
+		lights.blend = BlendMode.ADD;
+	 */
+
+	// i dont like how i implmented the stair stuff, feel free to make it better
+	stairsBG = new FlxBackdrop(Paths.image('stairs/scrollingBG', 'bendy'), 0, 1, false, true);
 	stairsBG.screenCenter();
 	stairsBG.alpha = 0.0001;
 	stairsBG.velocity.set(0, 180);
 
-	stairs = new FlxSprite(0, 0).loadGraphic(Paths.image('bendy/stairs/stairs'));
+	stairs = new FlxSprite(0, 0).loadGraphic(Paths.image('stairs/stairs', 'bendy'));
 	stairs.updateHitbox();
 	stairs.screenCenter();
 	stairs.alpha = 0.0001;
 	stairs.antialiasing = EngineSettings.antialiasing;
 	stairs.y -= 720;
 
-	stairsGradient = new FlxSprite(0, 0).loadGraphic(Paths.image('bendy/stairs/gradient'));
+	stairsGradient = new FlxSprite(0, 0).loadGraphic(Paths.image('stairs/gradient', 'bendy'));
 	stairsGradient.updateHitbox();
 	stairsGradient.screenCenter();
 	stairsGradient.y -= 1;
-	stairsGradient.blend = 11;
+	stairsGradient.blend = "overlay";
+
+	stairsGrp :FlxTypedGroup;
+	stairsGrp = new FlxTypedGroup<FlxSprite>();
+	add(stairsGrp);
+	// stairsGrp.add(stairsBG);
+	// stairsGrp.add(stairs);
+	// stairsGrp.add(stairsChainL);
+	// stairsGrp.add(stairsChainR);
+
+	transitionLayer:FlxTypedGroup; 
+	transitionLayer= new FlxTypedGroup<FlxSprite>();
+	add(transitionLayer);
+	transitionLayer.add(transition);
+
+	//kink machine
+
+	backbg:FlxTypedGroup; 
+	backbg = new FlxTypedGroup<FlxSprite>();
+	add(backbg);
+
+	frontbg = new FlxTypedGroup<FlxSprite>();
+	add(frontbg);
+
+	var strings = ['0','4','3','2','6_BLEND_MODE_ADD'];
+
+	for (killme in 0...5) {
+		var bg:FlxSprite = new FlxSprite();
+		bg.loadGraphic(Paths.image('gay/C_0' + strings[killme], 'bendy',false));
+		if (killme == 4)
+			bg.blend = "add";
+		backbg.add(bg);
+	}
+
+	for (i in 0...3) {
+		var bg:FlxSprite = new FlxSprite();
+		bg.loadGraphic(Paths.image('gay/C_01', 'bendy',false));
+		bg.x += i * bg.width;
+		frontbg.add(bg);
+	}
+
+	var bg:FlxSprite = new FlxSprite();
+	bg.loadGraphic(Paths.image('gay/C_05', 'bendy',false));
+	frontbg.add(bg);
+
+	var bg:FlxSprite = new FlxSprite();
+	bg.loadGraphic(Paths.image('gay/C_07', 'bendy',false));
+	frontbg.add(bg);
+
+	for (i in frontbg) {
+		i.scrollFactor.set(0, 0);
+		i.alpha = 0;
+		i.setGraphicSize(Std.int(FlxG.width*1.815));
+		i.screenCenter();
+		i.antialiasing = FlxG.save.data.highquality;
+	}
+
+	for (i in 0...3) frontbg.members[i].x += i * FlxG.width*1.815;
+
+	for (i in backbg) {
+		i.scrollFactor.set(0, 0);
+		i.alpha = 0;
+		i.setGraphicSize(Std.int(FlxG.width*1.815));
+		i.screenCenter();
+		i.antialiasing = FlxG.save.data.highquality;
+	}
+
+	for (i in 1...5) backbg.members[i].x += 300;
 }
 
 var yourMOM:FlxText;

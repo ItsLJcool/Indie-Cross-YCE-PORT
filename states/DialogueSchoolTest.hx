@@ -72,7 +72,7 @@ var dialogueTemplate = {
             textSpeed: 0.04, // not done
             endAnim: null,
             bgImage: { // not done
-                defaultBG: true, // white opacity BG (Psych Engine :troll: )
+                defaultBG: true, // white opacity BG (Psych Engine :troll:)
                 enabled: false,
                 path: null,
                 opacity: null,
@@ -794,7 +794,7 @@ function create() {
 var bgMusic:FlxSound;
 
 function updateScripts() {
-    dialogueScripts = new ScriptPack((dialogue.defaultStuff.scripts == null) ? [{paths: ''}] : dialogue.defaultStuff.scripts);
+    dialogueScripts = new ScriptPack((dialogue.defaultStuff.scripts == null) ? [{path: ''}] : dialogue.defaultStuff.scripts);
     dialogueScripts.setVariable("update", function(?elapsed:Float){});
 	dialogueScripts.setVariable("create", function(){});
 

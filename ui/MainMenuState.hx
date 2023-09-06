@@ -5,6 +5,7 @@ import ("dev_toolbox.ToolboxMessage");
 import ("Main");
 import Sys;
 import Settings; // stupid developer mode
+import Script;
 // import ("OPTIONS.OPTIONMAIN");
 var yoLOGO:FlxSprite;
 var sketch:FlxSprite;
@@ -27,7 +28,15 @@ var toolboxSpr:FlxSprite;
 
 var yceVer = Main.engineVer;
 function create() {
-
+	var transition:Script;
+    trace(Script.create(Paths.modsPath+"/"+mod+"/global_scripts/die"));
+    trace(Paths.modsPath+"/"+mod+"/global_scripts/die");
+    transition = Script.create(Paths.modsPath+"/"+mod+"/global_scripts/die");
+    transition.setVariable("create", function(){});
+    transition.setVariable("FlxG", FlxG);
+    transition.setScriptObject(this);
+    transition.loadFile();
+    transition.executeFunc("create");
 }
 function createPost() {
     trace("ENGINE SETTINGS DEVELOP: " + Settings.engineSettings.data.developerMode);

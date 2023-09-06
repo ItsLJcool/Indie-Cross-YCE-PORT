@@ -2,7 +2,6 @@
 import flixel.text.FlxText;
 import flixel.input.gamepad.FlxGamepad;
 import lime.app.Application;
-import lime.media.openal.AL;
 import openfl.system.System;
 import flixel.FlxCameraFollowStyle;
 
@@ -25,7 +24,11 @@ var quip:String = '';
 
 var deadMusic:FlxSound;
 var songPosSave:Dynamic = save.data.songPosition;
-var songSpeed:Float = 0.5;
+var songSpeed:Float = 1;
+
+function update(elapsed:Float) {
+    deadMusic.pitch = songSpeed;
+}
 
 function create() {
     character.visible = false;
@@ -177,9 +180,6 @@ function create() {
     add(text);
 
     changeItem(3);
-    trace(deadMusic._channel.__source.__backend.handle);
-    trace(AL.PITCH);
-    trace(songSpeed);
 
     new FlxTimer().start(1, function(tmr:FlxTimer)
     {
@@ -207,10 +207,6 @@ function create() {
             });
         });
     });
-}
-
-function update(elapsed:Float) {
-    AL.sourcef(deadMusic._channel.__source.__backend.handle, AL.PITCH, songSpeed);
 }
 
 function changeItem(huh:Int = 0) {

@@ -1,7 +1,7 @@
 {
     "antialiasing": true,
     "scale": 1,
-    "useColorShader": false,
+    "useColorShader": true,
     "animations": [
         {
             "name": "RedC instance ",

@@ -101,7 +101,7 @@ function create() {
     knockoutSpr.animation.addByPrefix('start', "A KNOCKOUT!", 24, false);
     knockoutSpr.updateHitbox();
     knockoutSpr.screenCenter();
-    knockoutSpr.antialiasing = FlxG.save.data.highquality;
+    knockoutSpr.antialiasing = EngineSettings.antialiasing;
     knockoutSpr.scrollFactor.set();
     knockoutSpr.alpha = 0.0001;
     PlayState.add(knockoutSpr);
@@ -200,10 +200,6 @@ function showDodgeSign() {
 
 function beatHit(curBeat:Int) {
     if (EngineSettings.botplay && allowCupheadAttack) useAttackSlot();
-}
-
-function onDadHit(note:Note) {
-
 }
 
 function onPlayerHit(note:Note) {
@@ -376,7 +372,6 @@ function useAttackSlot() {
             PlayState.health += 0.5;
 		});
 		boyfriend.playAnim('attack');
-		boyfriend.playAnim('attack', true, false, 0, true);
 		FlxG.sound.play(Paths.sound('sans/Throw' + FlxG.random.int(1, 3)));
 		boyfriend.animation.finishCallback = function(attack) {
 			boyfriend.playAnim('idle', true);

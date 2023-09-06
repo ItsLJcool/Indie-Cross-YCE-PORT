@@ -2,6 +2,7 @@
 import LoadingState;
 import CoolUtil;
 import Settings;
+import Script;
 var autoPlaySongs = false;
 function onChangeSelection() {
     if (autoPlaySongs) {
@@ -11,6 +12,19 @@ function onChangeSelection() {
             FlxG.sound.music.persist = true; }
         }
 }
+
+function create() {
+	var transition:Script;
+    trace(Script.create(Paths.modsPath+"/"+mod+"/global_scripts/die"));
+    trace(Paths.modsPath+"/"+mod+"/global_scripts/die");
+    transition = Script.create(Paths.modsPath+"/"+mod+"/global_scripts/die");
+    transition.setVariable("create", function(){});
+    transition.setVariable("FlxG", FlxG);
+    transition.setScriptObject(this);
+    transition.loadFile();
+    transition.executeFunc("create");
+}
+
 var cupTea:FlxSprite;
 function createPost() {
     cupTea = new FlxSprite();
