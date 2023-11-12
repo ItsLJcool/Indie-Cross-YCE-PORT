@@ -1,4 +1,4 @@
-enableRating = true;
+enableRating = false;
 
 function create() {
     note.frames = Paths.getSparrowAtlas("notes/NOTE_assets_devil");

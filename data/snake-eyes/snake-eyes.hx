@@ -27,6 +27,7 @@ function onCountdown(val:Int) {
             PlayState.add(cupheadIntro);
             PlayState.add(wallopIntro);
             FlxG.sound.play(Paths.sound('cuphead/intros/normal/' + introSFX));
+            trace(PlayState.storyPlaylist);
     }
     return false;
 }
